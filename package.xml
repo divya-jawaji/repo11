@@ -11,4 +11,8 @@
         <members>Lead</members>
         <name>AssignmentRules</name>
     </types>
+    <types>
+        <members>TestProfile</members>
+        <name>Profile</name>
+    </types>
 </Package>
