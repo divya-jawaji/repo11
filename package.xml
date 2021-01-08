@@ -12,6 +12,16 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>AuraComponent5</members>
+        <members>AuraTest3</members>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setExpId</members>
+        <members>setStartUrl</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
         <members>TestProfile</members>
         <name>Profile</name>
     </types>
