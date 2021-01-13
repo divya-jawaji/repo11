@@ -5,4 +5,9 @@
         <active>true</active>
         <label>recordtypejan13</label>
     </recordTypes>
+    <recordTypes>
+        <fullName>recordtypejan14</fullName>
+        <active>true</active>
+        <label>recordtypejan14</label>
+    </recordTypes>
 </CustomObject>

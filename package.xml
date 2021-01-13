@@ -27,6 +27,7 @@
     </types>
     <types>
         <members>customobjJan13__c.recordtypejan13</members>
+        <members>customobjJan13__c.recordtypejan14</members>
         <name>RecordType</name>
     </types>
 </Package>
