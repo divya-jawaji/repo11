@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>50.0</version>
+    <version>49.0</version>
+    <types>
+        <members>A</members>
+        <members>A0</members>
+        <members>A000</members>
+        <members>A0000</members>
+        <members>A0001</members>
+        <members>A0071</members>
+        <members>A00772</members>
+        <members>A0123</members>
+        <members>A025</members>
+        <members>A026</members>
+        <members>A028</members>
+        <members>A1</members>
+        <members>A10</members>
+        <members>A12</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>APXTConga4__BehaviorStep</members>
+        <members>APXTConga4__ComposerSolution</members>
+        <members>APXTConga4__ComposerSolutionButtonAdder</members>
+        <members>APXTConga4__ComposerSolutionCETAdder</members>
+        <members>APXTConga4__ComposerSolutionEdit</members>
+        <members>APXTConga4__ComposerSolutionLandingPage</members>
+        <members>APXTConga4__ComposerSolutionNew</members>
+        <members>APXTConga4__ComposerSolutionParameterAdder</members>
+        <name>ApexPage</name>
+    </types>
     <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
@@ -22,7 +50,98 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>APR_20__c.Quick_Layout</members>
+        <members>APR_20__c.Test_comp_layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__Conga_Solution__c</members>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__Description__c</members>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__Launch_CM8__c</members>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_ID_Formula__c</members>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_ID__c</members>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_Name_Formula__c</members>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_Name__c</members>
+        <members>APXTConga4__Composer_Setting__mdt.APXTConga4__Connected_App_Setting__c</members>
+        <members>APXTConga4__Conga_Composer_Settings__c.APXTConga4__Comments__c</members>
+        <members>APXTConga4__Conga_Composer_Settings__c.APXTConga4__Disable_C7_Triggers__c</members>
+        <members>APXTConga4__Conga_Composer_Settings__c.APXTConga4__Production_Org_Id__c</members>
+        <members>APXTConga4__Conga_Composer_Settings__c.APXTConga4__Server_Override__c</members>
+        <members>APXTConga4__Conga_Email_Staging__c.APXTConga4__HTMLBody__c</members>
+        <members>APXTConga4__Conga_Email_Staging__c.APXTConga4__Subject__c</members>
+        <members>APXTConga4__Conga_Email_Staging__c.APXTConga4__TextBody__c</members>
+        <members>APXTConga4__Conga_Email_Staging__c.APXTConga4__WhatId__c</members>
+        <members>APXTConga4__Conga_Email_Staging__c.APXTConga4__WhoId__c</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__Description__c</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__HTMLBody__c</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__Is_Body_Attachment__c</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__Name__c</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__Subject__c</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__Template_Group__c</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__TextBody__c</members>
+        <members>APXTConga4__Conga_Merge_Query__c.APXTConga4__Description__c</members>
+        <members>APXTConga4__Conga_Merge_Query__c.APXTConga4__Name__c</members>
+        <members>APXTConga4__Conga_Merge_Query__c.APXTConga4__Query__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>ParameterFieldMapping_mdgACE_md.ParameterFieldMapping_mdgACE_md_record1</members>
+        <members>ParameterFieldMapping_mdgContactReplicat.record1</members>
+        <members>ParameterFieldMapping_mdgContentType_md.record1</members>
+        <members>ParameterFieldMapping_mdghttp_md.ParameterFieldMapping_mdghttp_md_record1</members>
+        <members>Query_mdgAccountContactRelation_md.Quy_mdgContacts_md_Query_mdgContacts2_md</members>
+        <members>Query_mdgContacts_md.Query_mdgContacts_md_record1</members>
+        <members>Query_mdgContacts_md.Query_mdgContacts_md_record2</members>
+        <members>Query_mdgContacts_md_Query_mdgContacts2.record1_4th</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>APR_20__c</members>
+        <members>APXTConga4__Composer_QuickMerge__c</members>
+        <members>APXTConga4__Composer_Setting__mdt</members>
+        <members>APXTConga4__Conga_Composer_Settings__c</members>
+        <members>APXTConga4__Conga_Email_Staging__c</members>
+        <members>APXTConga4__Conga_Email_Template__c</members>
+        <members>APXTConga4__Conga_Merge_Query__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>flow1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>APR_20__c.All</members>
+        <members>APXTConga4__Composer_QuickMerge__c.APXTConga4__All</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__All</members>
+        <members>APXTConga4__Conga_Merge_Query__c.APXTConga4__All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>PRS1</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>ARProfile10</members>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
         <members>TestProfile</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>APR_20__c.first</members>
+        <members>AR_Test__c.ARRecordType</members>
+        <members>Translation__c.RecordType1</members>
+        <members>record_picklist_object__c.recordtype_pickist_recordtype</members>
+        <members>sameObject__c.record1</members>
+        <members>sameObject__c.record2</members>
+        <members>space_object__c.record1</members>
+        <members>space_object__c.record2</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>APR_20__c.TestLink</members>
+        <members>APXTConga4__Conga_Email_Template__c.APXTConga4__Advanced_Editor</members>
+        <members>APXTConga4__Conga_Merge_Query__c.APXTConga4__Conga_Query_Builder</members>
+        <name>WebLink</name>
     </types>
 </Package>
