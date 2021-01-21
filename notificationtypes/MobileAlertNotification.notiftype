@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>MobileAlertNotification</customNotifTypeName>
+    <desktop>true</desktop>
+    <masterLabel>MobileAlertNotification</masterLabel>
+    <mobile>true</mobile>
+</CustomNotificationType>

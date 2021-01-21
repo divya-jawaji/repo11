@@ -1,0 +1,2889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deals</value>
+    </caseValues>
+    <fields>
+        <help><!-- Number of years included in the account protective provision. --></help>
+        <label><!-- Account Protective Provision Years --></label>
+        <name>Account_Protective_Provision_Years__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the deal will include an account protective provision. --></help>
+        <label><!-- Account Protective Provision --></label>
+        <name>Account_Protective_Provision__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Acquirer Attributed BPS (Base + Inc.) --></label>
+        <name>Acquirer_Attributed_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquirer Attributed BPS (Inc.) --></label>
+        <name>Acquirer_Attributed_BPS_Inc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of acquirer that is part of a Merchant Agreement. --></help>
+        <label><!-- Acquirer Name --></label>
+        <name>Acquirer_Name__c</name>
+        <relationshipLabel><!-- Deals (Acquirer Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Commitments that will drive executive approval of the deal. --></help>
+        <label><!-- Additional MasterCard Commitments --></label>
+        <name>Add_l_MCard_Commitments__c</name>
+        <picklistValues>
+            <masterLabel>Change in the Definition of Core Revenue</masterLabel>
+            <translation><!-- Change in the Definition of Core Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interchange Assurance</masterLabel>
+            <translation><!-- Interchange Assurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasterCard Exclusivity-Services/Product</masterLabel>
+            <translation><!-- MasterCard Exclusivity-Services/Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasterCard Standard Pricing Cap</masterLabel>
+            <translation><!-- MasterCard Standard Pricing Cap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchant Specific Pricing-MPP &amp; similar</masterLabel>
+            <translation><!-- Merchant Specific Pricing-MPP &amp; similar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-traditional finance structures</masterLabel>
+            <translation><!-- Non-traditional finance structures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Payment Support is &gt; 20 MM USD/Euro</masterLabel>
+            <translation><!-- Pre-Payment Support is &gt; 20 MM USD/Euro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Guarantee(Most Favored Customer)</masterLabel>
+            <translation><!-- Pricing Guarantee(Most Favored Customer) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebates on Non-Core Fees</masterLabel>
+            <translation><!-- Rebates on Non-Core Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced Direct Acquirer Pricing</masterLabel>
+            <translation><!-- Reduced Direct Acquirer Pricing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicate whether this deal represents a flip from another brand, renewal or new issuance. --></help>
+        <label><!-- Additional Portfolio Information --></label>
+        <name>Additional_Portfolio_Information__c</name>
+        <picklistValues>
+            <masterLabel>Flip  Private Label Portfolio</masterLabel>
+            <translation><!-- Flip  Private Label Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip Amex Portfolio</masterLabel>
+            <translation><!-- Flip Amex Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip Other</masterLabel>
+            <translation><!-- Flip Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip Visa Portfolio</masterLabel>
+            <translation><!-- Flip Visa Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Issuance to Market</masterLabel>
+            <translation><!-- New Issuance to Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew &amp; Defend with no New issuance</masterLabel>
+            <translation><!-- Renew &amp; Defend with no New issuance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew &amp; Flip  Private Label Portfolio</masterLabel>
+            <translation><!-- Renew &amp; Flip  Private Label Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew &amp; Flip Amex Portfolio</masterLabel>
+            <translation><!-- Renew &amp; Flip Amex Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew &amp; Flip Other</masterLabel>
+            <translation><!-- Renew &amp; Flip Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew &amp; Flip Visa Portfolio</masterLabel>
+            <translation><!-- Renew &amp; Flip Visa Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew with New Issuance to Market</masterLabel>
+            <translation><!-- Renew with New Issuance to Market --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Advisors Notification Sent --></label>
+        <name>Advisors_Notification_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox to make sure only 1 email &quot;Advisors Support Below Threshold&quot; is sent per Deal. 
+This checkbox is updated when the first email fires. --></help>
+        <label><!-- Advisors Support Below Threshold --></label>
+        <name>Advisors_Support_Below_Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age From Approval --></label>
+        <name>Age_From_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Routing(s) --></label>
+        <name>Approval_Routing_s__c</name>
+    </fields>
+    <fields>
+        <help><!-- The user that has submitted the last approval process --></help>
+        <label><!-- Approval Submitter --></label>
+        <name>Approval_Submitter__c</name>
+        <relationshipLabel><!-- Deals (Approval Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date contract obligations will end. --></help>
+        <label><!-- Approved End Date --></label>
+        <name>Approved_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date contract obligations will begin. --></help>
+        <label><!-- Approved Start Date --></label>
+        <name>Approved_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ariba Contract Request Date --></label>
+        <name>Ariba_Contract_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ariba Contract Request Status --></label>
+        <name>Ariba_Contract_Request_Status__c</name>
+        <picklistValues>
+            <masterLabel>Ariba Contract Request successfully created</masterLabel>
+            <translation><!-- Ariba Contract Request successfully created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiated the Ariba Contract Request</masterLabel>
+            <translation><!-- Initiated the Ariba Contract Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated Contract Information</masterLabel>
+            <translation><!-- Updated Contract Information --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ariba Contract Request Workspace Id --></label>
+        <name>Ariba_Contract_Request_Workspace_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ariba Contract Request URL --></label>
+        <name>Ariba_Contract_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help><!-- AP M ConditionRouting --></help>
+        <label><!-- AP M ConditionRouting --></label>
+        <name>BD_APMEA_M_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- AP O ConditionRouting --></help>
+        <label><!-- AP O ConditionRouting --></label>
+        <name>BD_APMEA_O_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <label><!-- AP O2 ConditionRouting --></label>
+        <name>BD_AP_O2_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- CAN M ConditionRouting --></help>
+        <label><!-- CAN M ConditionRouting --></label>
+        <name>BD_CAN_M_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- CAN O1 ConditionRouting --></help>
+        <label><!-- CAN O1 ConditionRouting --></label>
+        <name>BD_CAN_O1_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- CAN O2 ConditionRouting --></help>
+        <label><!-- CAN O2 ConditionRouting --></label>
+        <name>BD_CAN_O2_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Duration --></label>
+        <name>BD_Contract_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Currency --></label>
+        <name>BD_Currency__c</name>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The assumed cost of capital for MasterCard. --></help>
+        <label><!-- Discounted Rate% --></label>
+        <name>BD_Discounted_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- EUR M ConditionRouting --></help>
+        <label><!-- EUR M ConditionRouting --></label>
+        <name>BD_EUR_M_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <label><!-- EUR O2 ConditionRouting --></label>
+        <name>BD_EUR_O2_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- EUR O ConditionRouting --></help>
+        <label><!-- EUR O ConditionRouting --></label>
+        <name>BD_EUR_O_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- LAC M ConditionRouting --></help>
+        <label><!-- LAC M ConditionRouting --></label>
+        <name>BD_LAC_M_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <label><!-- LAC O2 ConditionRouting --></label>
+        <name>BD_LAC_O2_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- LAC O ConditionRouting --></help>
+        <label><!-- LAC O ConditionRouting --></label>
+        <name>BD_LAC_O_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of additional months in the term of the deal. --></help>
+        <label><!-- Length of Contract (Months) --></label>
+        <name>BD_LOC_Months__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of years in the term of the deal. --></help>
+        <label><!-- Length of Contract (Years) --></label>
+        <name>BD_LOC_Years__c</name>
+    </fields>
+    <fields>
+        <help><!-- MEA M ConditionRouting --></help>
+        <label><!-- MEA M ConditionRouting --></label>
+        <name>BD_MEA_M_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <label><!-- MEA O2 ConditionRouting --></label>
+        <name>BD_MEA_O2_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- MEA O ConditionRouting --></help>
+        <label><!-- MEA O ConditionRouting --></label>
+        <name>BD_MEA_O_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of years from start date to end date plus any residual years included in the deal. --></help>
+        <label><!-- Number of Program Years (or Term) --></label>
+        <name>BD_Number_of_Program_Years_or_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payback % --></label>
+        <name>BD_Payback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period in months --></label>
+        <name>BD_Period_in_months__c</name>
+    </fields>
+    <fields>
+        <help><!-- Show customer support popup in override mode. --></help>
+        <label><!-- Show Customer Support Popup --></label>
+        <name>BD_ShowCustSupPopup__c</name>
+    </fields>
+    <fields>
+        <help><!-- US M ConditionRouting --></help>
+        <label><!-- US M ConditionRouting --></label>
+        <name>BD_US_M_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- US O1 ConditionRouting --></help>
+        <label><!-- US O1 ConditionRouting --></label>
+        <name>BD_US_O1_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- US O2 ConditionRouting --></help>
+        <label><!-- US O2 ConditionRouting --></label>
+        <name>BD_US_O2_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bsmart_Obj_Id --></label>
+        <name>Bsmart_Obj_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Case Approved ? --></label>
+        <name>Business_Case_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Case Financial Model File Id --></label>
+        <name>Business_Case_Financial_Model_File_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the Business Case Financial Model file name and link --></help>
+        <label><!-- Business Case Financial Model Link --></label>
+        <name>Business_Case_Financial_Model_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Attach business case financial model. --></help>
+        <label><!-- Business Case Financial Model --></label>
+        <name>Business_Case_Financial_Model__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the Business Case Other Supporting Docs file name &amp; Link --></help>
+        <label><!-- Business Case Other Supporting Docs Link --></label>
+        <name>Business_Case_Other_Supporting_Docs_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Attach business case supporting documents. --></help>
+        <label><!-- Business Case Other Supporting Docs --></label>
+        <name>Business_Case_Other_Supporting_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Case Supporting Documents Ids --></label>
+        <name>Business_Case_Supporting_Documents_Ids__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the Business Case Supporting Documents file names and Link --></help>
+        <label><!-- Business Case Supporting Documents Link --></label>
+        <name>Business_Case_Supporting_Documents_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check when Business Case Supporting Documents are loaded --></help>
+        <label><!-- Business Case Supporting Documents --></label>
+        <name>Business_Case_Supporting_Documents__c</name>
+    </fields>
+    <fields>
+        <help><!-- Information from Deal&apos;s opportunity products. Used for reporting. --></help>
+        <label><!-- Product/Service Line --></label>
+        <name>Business_Unit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is this a Co-Brand Deal? --></help>
+        <label><!-- co-Brand --></label>
+        <name>Cobrand_Flag_PL__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates if this deals falls into the Co-Brand Category --></help>
+        <label><!-- Cobrand Flag DELETE --></label>
+        <name>Cobrand_Flag__c</name>
+    </fields>
+    <fields>
+        <help><!-- Commercial Credit --></help>
+        <label><!-- Commercial Credit --></label>
+        <name>Commercial_Credit__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CoBrand</masterLabel>
+            <translation><!-- CoBrand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet</masterLabel>
+            <translation><!-- Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government/Public Sector</masterLabel>
+            <translation><!-- Government/Public Sector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchasing</masterLabel>
+            <translation><!-- Purchasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unembossed</masterLabel>
+            <translation><!-- Unembossed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Commercial Debit --></help>
+        <label><!-- Commercial Debit --></label>
+        <name>Commercial_Debit__c</name>
+        <picklistValues>
+            <masterLabel>CoBrand</masterLabel>
+            <translation><!-- CoBrand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet</masterLabel>
+            <translation><!-- Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold (Debit)</masterLabel>
+            <translation><!-- Gold (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum (Debit)</masterLabel>
+            <translation><!-- Platinum (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard (Debit)</masterLabel>
+            <translation><!-- Standard (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unembossed</masterLabel>
+            <translation><!-- Unembossed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ConditionRouting Region --></label>
+        <name>ConditionRouting_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConditionRouting --></label>
+        <name>ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Consumer Credit --></help>
+        <label><!-- Consumer Credit --></label>
+        <name>Consumer_Credit__c</name>
+        <picklistValues>
+            <masterLabel>CoBrand</masterLabel>
+            <translation><!-- CoBrand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold (Consumer)</masterLabel>
+            <translation><!-- Gold (Consumer) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum (Consumer)</masterLabel>
+            <translation><!-- Platinum (Consumer) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard (Consumer)</masterLabel>
+            <translation><!-- Standard (Consumer) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unembossed</masterLabel>
+            <translation><!-- Unembossed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>World</masterLabel>
+            <translation><!-- World --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>World Elite</masterLabel>
+            <translation><!-- World Elite --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Consumer Debit --></help>
+        <label><!-- Consumer Debit --></label>
+        <name>Consumer_Debit__c</name>
+        <picklistValues>
+            <masterLabel>CoBrand</masterLabel>
+            <translation><!-- CoBrand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold (Debit)</masterLabel>
+            <translation><!-- Gold (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum (Debit)</masterLabel>
+            <translation><!-- Platinum (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaid</masterLabel>
+            <translation><!-- Prepaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard (Debit)</masterLabel>
+            <translation><!-- Standard (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unembossed</masterLabel>
+            <translation><!-- Unembossed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Effective Date --></label>
+        <name>Contract_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Assumptions behind the financial model including growth assumptions, average transactions size, international vs. domestic business mix, processed vs. non-processed transactions and revenue assumptions. --></help>
+        <label><!-- Critical Model Assumption --></label>
+        <name>Critical_Model_Assumption__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer obligations including volume, share commitments, clawbacks, non-conversion, continued observance and other requirements. --></help>
+        <label><!-- Customer Commitments --></label>
+        <name>Customer_Commitments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Division Text --></label>
+        <name>Customer_Division_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer_Name --></label>
+        <name>Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Region Text --></label>
+        <name>Customer_Region_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- This custom formula field converts Customer Support values from negative (-) to absolute values (+). Used for reporting. --></help>
+        <label><!-- Customer Support $ Amount --></label>
+        <name>Customer_Support_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Support BPS (Base + Inc.) --></label>
+        <name>Customer_Support_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Support BPS (Inc.) --></label>
+        <name>Customer_Support_BPS_Inc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dollar/Euro amount of support prepayment required. --></help>
+        <label><!-- Support Prepayment  Amount --></label>
+        <name>Customer_Support_Prepayment_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Detail around the required support prepayment. --></help>
+        <label><!-- Support Prepayment Description --></label>
+        <name>Customer_Support_Prepayment_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether this deal requires support prepayment. --></help>
+        <label><!-- Support Prepayment --></label>
+        <name>Customer_Support_Prepayment__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Name of issuer, acquirer or merchant that the deal is with. --></help>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Deals (Customer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval Cycle Time (Days) --></label>
+        <name>Cycle_Time_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter value if Data Source &quot;Other&quot; is selected --></help>
+        <label><!-- If Other, Explain (Data Source) --></label>
+        <name>Data_Source_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies what data sources will be used to validate commitments that are part of the agreement. --></help>
+        <label><!-- Data Source --></label>
+        <name>Data_Source__c</name>
+        <picklistValues>
+            <masterLabel>Enterprise Analytics</masterLabel>
+            <translation><!-- Enterprise Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCBS</masterLabel>
+            <translation><!-- MCBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDS</masterLabel>
+            <translation><!-- MDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>myMpa</masterLabel>
+            <translation><!-- myMpa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Deal: Date Active Field for Deal Reporting --></help>
+        <label><!-- Date Active --></label>
+        <name>Date_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Changed --></label>
+        <name>Date_Changed__c</name>
+        <picklistValues>
+            <masterLabel>Changed</masterLabel>
+            <translation><!-- Changed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NotChanged</masterLabel>
+            <translation><!-- NotChanged --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Deal: Date Dead Field for Deal Reporting --></help>
+        <label><!-- Date Dead --></label>
+        <name>Date_Dead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Deal Approved --></label>
+        <name>Date_Deal_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Deal: Date Expired Field for Deal Reporting --></help>
+        <label><!-- Date Expired --></label>
+        <name>Date_Expired__c</name>
+    </fields>
+    <fields>
+        <help><!-- Deal: Date Rejected Field for Deal Reporting --></help>
+        <label><!-- Date Rejected --></label>
+        <name>Date_Rejected__c</name>
+    </fields>
+    <fields>
+        <help><!-- Deal: Date Returned Field for Deal Reporting --></help>
+        <label><!-- Date Returned --></label>
+        <name>Date_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of last Time Out --></label>
+        <name>Date_of_last_Time_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Submission --></label>
+        <name>Date_of_submission__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for Reporting Only - Calculates the number of days a Deal&apos;s End Date has expired. Today - End Date. --></help>
+        <label><!-- # Days Past End Date --></label>
+        <name>Days_End_Date_Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Accounting Summary Status --></label>
+        <name>Deal_Accounting_Summary_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Approval Condition --></label>
+        <name>Deal_Approval_Condition__c</name>
+        <picklistValues>
+            <masterLabel>&lt;= 1 MM</masterLabel>
+            <translation><!-- &lt;= 1 MM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;= 10 MM</masterLabel>
+            <translation><!-- &lt;= 10 MM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;10 MM &lt;=25 MM</masterLabel>
+            <translation><!-- &gt;10 MM &lt;=25 MM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;25 MM &lt;=50 MM</masterLabel>
+            <translation><!-- &gt;25 MM &lt;=50 MM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This checkbox is used for to activate the workflow that sends a email to the submitter and to the owner of the deal --></help>
+        <label><!-- Deal Approved Send Email --></label>
+        <name>Deal_Approved_Send_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Covering Countries Text --></label>
+        <name>Deal_Covering_Countries_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Check is required to be able to delete this deal. --></help>
+        <label><!-- Deal Deletion --></label>
+        <name>Deal_Deletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal ICA --></label>
+        <name>Deal_ICA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal ID --></label>
+        <name>Deal_IDText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Last Modified --></label>
+        <name>Deal_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Manager Email --></label>
+        <name>Deal_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brief description of the deal. --></help>
+        <label><!-- Deal Name --></label>
+        <name>Deal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Notification Counter --></label>
+        <name>Deal_Notification_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Notification Date --></label>
+        <name>Deal_Notification_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Owner --></label>
+        <name>Deal_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Ready for Submit --></label>
+        <name>Deal_Ready_for_Submit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Reminder Flag --></label>
+        <name>Deal_Reminder_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Reminder Retrigger --></label>
+        <name>Deal_Reminder_Retrigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Finance use only. --></help>
+        <label><!-- Deal Review Date --></label>
+        <name>Deal_Review_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates what phase is the deal in its lifecycle --></help>
+        <label><!-- Deal Status --></label>
+        <name>Deal_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Case Approved Internally</masterLabel>
+            <translation><!-- Business Case Approved Internally --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Case Development</masterLabel>
+            <translation><!-- Business Case Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Case Returned</masterLabel>
+            <translation><!-- Business Case Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Case Submitted for Approval</masterLabel>
+            <translation><!-- Business Case Submitted for Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close Alternate</masterLabel>
+            <translation><!-- Close Alternate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dead</masterLabel>
+            <translation><!-- Dead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated</masterLabel>
+            <translation><!-- Terminated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates what type of agreement we have with the customer. --></help>
+        <label><!-- Type of Deal --></label>
+        <name>Deal_Type__c</name>
+        <picklistValues>
+            <masterLabel>Acquiring</masterLabel>
+            <translation><!-- Acquiring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alliance</masterLabel>
+            <translation><!-- Alliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CBA (With Discounted Core Fee Pricing)</masterLabel>
+            <translation><!-- CBA (With Discounted Core Fee Pricing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issuing</masterLabel>
+            <translation><!-- Issuing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Country Transaction Processing only</masterLabel>
+            <translation><!-- Local Country Transaction Processing only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestro/Cirrus</masterLabel>
+            <translation><!-- Maestro/Cirrus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasterCard Processing</masterLabel>
+            <translation><!-- MasterCard Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchant Agreement</masterLabel>
+            <translation><!-- Merchant Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Customer Investment</masterLabel>
+            <translation><!-- Other Customer Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Segment</masterLabel>
+            <translation><!-- Segment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Deal Covering Countries are automatically populated based on the Countries selected within the Opportunity record. To change the Deal Covering Countries, return to the Opportunity and click the Manage Opportunity Geography link. --></help>
+        <label><!-- Deal Covering Countries --></label>
+        <name>Deal_covering_countries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal --></label>
+        <name>Deal_edit_history__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal full name --></label>
+        <name>Deal_full_name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This custom formula field calculates the number of days since a deal had any activity. Used in reporting. --></help>
+        <label><!-- Deals-Days Since Last Activity --></label>
+        <name>Deals_Days_Since_Last_Activity__c</name>
+    </fields>
+    <fields>
+        <help><!-- This custom formula field calculates the number of days since a deal has last be modified. Used in reporting. --></help>
+        <label><!-- Deals-Days since Last Modified --></label>
+        <name>Deals_Days_since_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <help><!-- This custom formula field is used to report unique Deal record counts in reporting. --></help>
+        <label><!-- Deals Unique Count --></label>
+        <name>Deals_Unique_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defend / Flip / Grow --></label>
+        <name>Defend_Flip_Grow__c</name>
+        <picklistValues>
+            <masterLabel>Defend</masterLabel>
+            <translation><!-- Defend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip</masterLabel>
+            <translation><!-- Flip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow</masterLabel>
+            <translation><!-- Grow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Delivery Unit Text --></label>
+        <name>Delivery_Unit_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Summary of the opportunity and commitment of the deal. --></help>
+        <label><!-- Background/Strategy --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disc. Gross Customer Revenue(Base + Inc) --></label>
+        <name>Disc_Gross_Customer_Revenue_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disclaimer Reminder --></label>
+        <name>Disclaimer_Reminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Gross Customer Revenue (Inc.) --></label>
+        <name>Discounted_Gross_Customer_Revenue_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Gross Total Revenue (B+I) --></label>
+        <name>Discounted_Gross_Total_Revenue_B_I__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Gross Total Revenue (Inc.) --></label>
+        <name>Discounted_Gross_Total_Revenue_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Issuer Payout % (Base +Inc.) --></label>
+        <name>Discounted_Issuer_Payout_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Issuer Payout % (Inc.) --></label>
+        <name>Discounted_Issuer_Payout_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Issuing Revenue (Base + Inc.) --></label>
+        <name>Discounted_Issuing_Revenue_Base_Inc_Val__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Issuing Revenue (Inc.) --></label>
+        <name>Discounted_Issuing_Revenue_Inc_Val__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Other Costs (Base + Inc) --></label>
+        <name>Discounted_Other_Costs_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Other Costs (Inc.) --></label>
+        <name>Discounted_Other_Costs_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Other Revenue (Base + Inc) --></label>
+        <name>Discounted_Other_Revenue_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Other Revenue (Inc.) --></label>
+        <name>Discounted_Other_Revenue_Inc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Clarifies whether the existing deal has protection for years beyond the contract term. --></help>
+        <label><!-- Residual Years on Existing Deal --></label>
+        <name>Does_pr_deal_have_residual_yr_revenue__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date contract obligations will end. --></help>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execute Main Condition Routing WF --></label>
+        <name>Execute_Main_Condition_Routing_WF__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be updated by IMK or USM finance for deals that will require executive approval --></help>
+        <label><!-- Quad Key Metrics Dashboard Comments --></label>
+        <name>Executive_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended End Date --></label>
+        <name>Extended_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension Notes --></label>
+        <name>Extension_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Terms Last Updated By --></label>
+        <name>Final_Terms_Last_Updated_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Terms Last Updated Date --></label>
+        <name>Final_Terms_Last_Updated_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select or deselect Customer Support Types to align with final negotiated outcomes. Click Save Changes after adding/removing values. --></help>
+        <label><!-- Final Type(s) of Customer Support --></label>
+        <name>Final_Terms_Type_of_Customer_Support__c</name>
+        <picklistValues>
+            <masterLabel>Account Support</masterLabel>
+            <translation><!-- Account Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advance of Incentives</masterLabel>
+            <translation><!-- Advance of Incentives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors Consulting Services Support</masterLabel>
+            <translation><!-- Advisors Consulting Services Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors Information Services Support</masterLabel>
+            <translation><!-- Advisors Information Services Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors Managed Services Support</masterLabel>
+            <translation><!-- Advisors Managed Services Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors/Consulting</masterLabel>
+            <translation><!-- Advisors/Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base Assessed Transaction Support</masterLabel>
+            <translation><!-- Base Assessed Transaction Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base Processed Transaction Support</masterLabel>
+            <translation><!-- Base Processed Transaction Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Card Support</masterLabel>
+            <translation><!-- Card Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cirrus Switch Fee Rebate</masterLabel>
+            <translation><!-- Cirrus Switch Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conversion Assistance</masterLabel>
+            <translation><!-- Conversion Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conversion Support</masterLabel>
+            <translation><!-- Conversion Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Border Assessment rebates</masterLabel>
+            <translation><!-- Cross Border Assessment rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Border Base bps</masterLabel>
+            <translation><!-- Cross Border Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Border Incremental bps</masterLabel>
+            <translation><!-- Cross Border Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Delivery Services</masterLabel>
+            <translation><!-- Customer Delivery Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designated FTE</masterLabel>
+            <translation><!-- Designated FTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Support</masterLabel>
+            <translation><!-- Digital Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESS Support</masterLabel>
+            <translation><!-- ESS Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Processing or Credit</masterLabel>
+            <translation><!-- Free Processing or Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV Incremental bps</masterLabel>
+            <translation><!-- GDV Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV Processed Base bps</masterLabel>
+            <translation><!-- GDV Processed Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV Processed Incremental bps</masterLabel>
+            <translation><!-- GDV Processed Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV-Base bps</masterLabel>
+            <translation><!-- GDV-Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GP&amp;S Incentive</masterLabel>
+            <translation><!-- GP&amp;S Incentive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incremental Assessed Transact Support</masterLabel>
+            <translation><!-- Incremental Assessed Transact Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incremental Processed Transact Support</masterLabel>
+            <translation><!-- Incremental Processed Transact Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint Development Fund</masterLabel>
+            <translation><!-- Joint Development Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labs Support</masterLabel>
+            <translation><!-- Labs Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch Support</masterLabel>
+            <translation><!-- Launch Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License Fee Waiver</masterLabel>
+            <translation><!-- License Fee Waiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty - Benefits Support</masterLabel>
+            <translation><!-- Loyalty - Benefits Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty - Rewards Support</masterLabel>
+            <translation><!-- Loyalty - Rewards Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MPTS Support</masterLabel>
+            <translation><!-- MPTS Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestro Switch Fee Rebate</masterLabel>
+            <translation><!-- Maestro Switch Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing/Advertising</masterLabel>
+            <translation><!-- Marketing/Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchant Investment Support</masterLabel>
+            <translation><!-- Merchant Investment Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-MC Product / IT Development</masterLabel>
+            <translation><!-- Non-MC Product / IT Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS / Terminalization Support</masterLabel>
+            <translation><!-- POS / Terminalization Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Bonus</masterLabel>
+            <translation><!-- Performance Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Base bps</masterLabel>
+            <translation><!-- Retail Sales Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Incremental bps</masterLabel>
+            <translation><!-- Retail Sales Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Processed Base bps</masterLabel>
+            <translation><!-- Retail Sales Processed Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Processed Incremental bps</masterLabel>
+            <translation><!-- Retail Sales Processed Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheme Core Fee Discount</masterLabel>
+            <translation><!-- Scheme Core Fee Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheme Core Fee Rebate</masterLabel>
+            <translation><!-- Scheme Core Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Share Performance Support</masterLabel>
+            <translation><!-- Share Performance Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign-On Bonus</masterLabel>
+            <translation><!-- Sign-On Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship Support</masterLabel>
+            <translation><!-- Sponsorship Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Core Fee Discount</masterLabel>
+            <translation><!-- Switching Core Fee Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Core Fee Rebate</masterLabel>
+            <translation><!-- Switching Core Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User-Pay Waiver/Support</masterLabel>
+            <translation><!-- User-Pay Waiver/Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallet Solutions Support</masterLabel>
+            <translation><!-- Wallet Solutions Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use to track changes on financial model --></help>
+        <label><!-- Financial model data to projections --></label>
+        <name>Financial_edit_history_c__c</name>
+    </fields>
+    <fields>
+        <help><!-- The currency rate of the first year of the contract. This currency is used for to calculation the conversion for the key assumptions &amp; metrics records. --></help>
+        <label><!-- First Year Currency Rate --></label>
+        <name>First_Year_Currency_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates type of funding that is applies to a merchant agreement --></help>
+        <label><!-- Funding Source --></label>
+        <name>Funding_Source__c</name>
+        <picklistValues>
+            <masterLabel>Advertising &amp; Marketing</masterLabel>
+            <translation><!-- Advertising &amp; Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chip Funds</masterLabel>
+            <translation><!-- Chip Funds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contra Revenue</masterLabel>
+            <translation><!-- Contra Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Customer Funds</masterLabel>
+            <translation><!-- Other Customer Funds --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gross Customer Revenue BPS (Base + Inc.) --></label>
+        <name>Gross_Customer_Revenue_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Customer Revenue BPS (Inc.) --></label>
+        <name>Gross_Customer_Revenue_BPS_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue BPS (Base + Inc.) --></label>
+        <name>Gross_Total_Revenue_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue BPS (Inc.) --></label>
+        <name>Gross_Total_Revenue_BPS_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude from Reporting --></label>
+        <name>Has_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has this deal been in Override Mode? --></label>
+        <name>Has_This_Deal_Been_In_Override_Mode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Issuer or Acquirer ICA. --></help>
+        <label><!-- ICA --></label>
+        <name>ICA__c</name>
+        <relationshipLabel><!-- Deals (ICA) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field indicates whether a deal is eligible for Fast Track approval or not. --></help>
+        <label><!-- IMK Fast Track Eligible --></label>
+        <name>IMK_FTE__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MasterCard Processing ConditionRouting --></label>
+        <name>IPS_ConditionRouting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Start Date --></label>
+        <name>IPS_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No, Explain Why Deal Isn&apos;t Eligible --></label>
+        <name>If_No_Explain_Why_Deal_Isnt_eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No, Select Why Deal Isn&apos;t Eligible --></label>
+        <name>If_No_Select_Why_Deal_Isn_t_Eligible__c</name>
+        <picklistValues>
+            <masterLabel>Customer Support exceeds Fast Track Threshold</masterLabel>
+            <translation><!-- Customer Support exceeds Fast Track Threshold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deal term exceeds standard period</masterLabel>
+            <translation><!-- Deal term exceeds standard period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deal type not allowed for Fast Track</masterLabel>
+            <translation><!-- Deal type not allowed for Fast Track --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issuer Payout Ratio (IIR) exceeds benchmark </masterLabel>
+            <translation><!-- Issuer Payout Ratio (IIR) exceeds benchmark  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others not compliant with Fast Track guidelines</masterLabel>
+            <translation><!-- Others not compliant with Fast Track guidelines --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Reason why a clawback provision is not included for the deal. --></help>
+        <label><!-- If No, Explain (Clawback) --></label>
+        <name>If_no_please_explain_clawback__c</name>
+    </fields>
+    <fields>
+        <help><!-- Clawbacks for underperformance should be clearly defined and state exactly how they will be calculated and executed. --></help>
+        <label><!-- If Yes, Describe Clawback Calculation --></label>
+        <name>If_yes_describe_calculation_for_clawbac__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is this deal expired by automatic batch process? --></help>
+        <label><!-- Is Auto Expired --></label>
+        <name>Is_Auto_Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is New Financial Model --></label>
+        <name>Is_New_Financial_Model__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies whether this deal has a Visa Flip components --></help>
+        <label><!-- TBDEL --></label>
+        <name>Is_this_a_Visa_Flip__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether this deal is an early renewal of an existing deal with the customer. --></help>
+        <label><!-- Is This Early Renewal --></label>
+        <name>Is_this_early_renewal__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Issuer --></label>
+        <name>Issuer__c</name>
+        <relationshipLabel><!-- Deals (Issuer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Submitted By --></label>
+        <name>Last_Submitted_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Update Date (Non-Admin) --></label>
+        <name>Last_Update_Date_Non_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Updated By (Non-Admin) --></label>
+        <name>Last_Updated_By_Non_Admin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique identifier populated by b-SMART for any deal that existed in old b-SMART. --></help>
+        <label><!-- Legacy b-SMART ID --></label>
+        <name>Legacy_BSmart_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is this deal for a Principal or Affiliate License? --></help>
+        <label><!-- License Type --></label>
+        <name>License_Type__c</name>
+        <picklistValues>
+            <masterLabel>Affiliate</masterLabel>
+            <translation><!-- Affiliate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal</masterLabel>
+            <translation><!-- Principal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Line of Business Commercial --></help>
+        <label><!-- LoB Commercial --></label>
+        <name>LoB_Commercial__c</name>
+    </fields>
+    <fields>
+        <help><!-- Line of Business Consumer --></help>
+        <label><!-- LoB Consumer --></label>
+        <name>LoB_Consumer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Line of Business Debit --></help>
+        <label><!-- LoB Debit --></label>
+        <name>LoB_Debit__c</name>
+    </fields>
+    <fields>
+        <help><!-- MasterCard liability for any local VAT/ GDT or business tax if applicable. --></help>
+        <label><!-- Local VAT/GDT/Business Tax Applicability --></label>
+        <name>Local_VAT_GDT_Business_Tax_Applicability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disc. Issuer Payout % incl Margin(B + I) --></label>
+        <name>MC_Discounted_Issuer_Payout_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disc. Issuer Payout % incl. Margin(Inc.) --></label>
+        <name>MC_Discounted_Issuer_Payout_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disc.Payout % incl Margin(Base+Inc) --></label>
+        <name>MC_Discounted_Payout_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFC Certification --></label>
+        <name>MFC_Certification__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFC Country Deal --></label>
+        <name>MFC_Country_Deal__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFC Deal Link --></label>
+        <name>MFC_Deal_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFC Missing Information --></label>
+        <name>MFC_Missing_Information__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maestro/Cirrus Debit --></help>
+        <label><!-- Maestro/Cirrus Debit --></label>
+        <name>Maestro_Cirrus_Debit__c</name>
+        <picklistValues>
+            <masterLabel>CoBrand</masterLabel>
+            <translation><!-- CoBrand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet</masterLabel>
+            <translation><!-- Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold (Debit)</masterLabel>
+            <translation><!-- Gold (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard (Debit)</masterLabel>
+            <translation><!-- Standard (Debit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unembossed</masterLabel>
+            <translation><!-- Unembossed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manage ICA&apos;s --></label>
+        <name>Manage_ICA_s__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to store user IDs of mandatory approvers as comma separated values. --></help>
+        <label><!-- Mandatory Approvers --></label>
+        <name>Mandatory_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mandatory Financial Model --></label>
+        <name>Mandatory_Financial_Model__c</name>
+    </fields>
+    <fields>
+        <help><!-- Support needed from other internal groups such as Marketing, Communications, etc. --></help>
+        <label><!-- Marketing/Communication Support Required --></label>
+        <name>Marketing_Creative_Communication_Support__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked this Deal becomes the master deal and all other if any will become alternate. The master deal is the one that becomes active after an opportunity is closed won. --></help>
+        <label><!-- Master Deal --></label>
+        <name>Master_Deal__c</name>
+    </fields>
+    <fields>
+        <help><!-- MasterCard obligations including type and dollar support --></help>
+        <label><!-- MasterCard Commitments --></label>
+        <name>Mastercard_Commitments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Payout %  incl. Margin (Inc) --></label>
+        <name>Mastercard_Discounted_Payout_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Flag --></label>
+        <name>Migration_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Missing Detail Information Old --></label>
+        <name>Missing_Detail_Information_Old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Missing Detail Information --></label>
+        <name>Missing_Detail_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Missing Projections Data --></label>
+        <name>Missing_Projections_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Missing Projections Information --></label>
+        <name>Missing_Projections_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Average Sign-on Bonus --></label>
+        <name>Monthly_Average_Sign_on_Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multi-Party Case --></label>
+        <name>Multi_Party_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPV (Base + Inc.) --></label>
+        <name>NPV_Base_Inc_Val__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPV Discounted Cash Flow --></label>
+        <name>NPV_Discounted_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPV (inc.) --></label>
+        <name>NPV_Inc_Val__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Customer Revenue BPS (Base + Inc) --></label>
+        <name>Net_Customer_Revenue_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Customer Revenue BPS (Inc.) --></label>
+        <name>Net_Customer_Revenue_BPS_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Customer Revenue (Base + Inc.) --></label>
+        <name>Net_Customer_Revenue_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Customer Revenue (Inc.) --></label>
+        <name>Net_Customer_Revenue_Inc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula field was created to report on Net Revenue basis-points (BPS). --></help>
+        <label><!-- Net Total Revenue BPS (Inc. Only) --></label>
+        <name>Net_Deal_Revenue_BPS_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Revenue BPS (Base + Inc.) --></label>
+        <name>Net_Total_Revenue_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- If no, Explain (Residual Revenue) --></label>
+        <name>No_Residual_Year_Revenue_Explain__c</name>
+    </fields>
+    <fields>
+        <help><!-- No Touch / Light Touch Eligible agreements use pre-approved contract templates within the ARIBA system --></help>
+        <label><!-- No Touch / Light Touch Eligible --></label>
+        <name>No_Touch_Eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Terms --></label>
+        <name>No_of_Terms__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to store user IDs of non-mandatory approvers as comma separated values. --></help>
+        <label><!-- Non Mandatory Approvers --></label>
+        <name>Non_Mandatory_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Returns --></label>
+        <name>Nr_of_Returns__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Unique Optional Approvers --></label>
+        <name>Nr_of_Unique_Optional_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Unique Required Approvers --></label>
+        <name>Nr_of_Unique_Required_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Calendar Years --></label>
+        <name>Number_of_Calendar_Years__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Time Outs --></label>
+        <name>Number_of_Time_Outs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the number of years the existing deal has residual protection for. --></help>
+        <label><!-- Number of Residual Years --></label>
+        <name>Number_of_residual_years__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Summary of the objective and situation surrounding the deal --></help>
+        <label><!-- Objective/Situation --></label>
+        <name>Objective_Situation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type (DO NOT CHANGE) --></label>
+        <name>OpportunityType__c</name>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation><!-- New Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal Business</masterLabel>
+            <translation><!-- Renewal Business --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ID --></label>
+        <name>Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity_Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_TypeText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Deals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Information from Deal&apos;s opportunity products. Used for reporting. --></help>
+        <label><!-- Product/Service Family --></label>
+        <name>Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Submission Date --></label>
+        <name>Original_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Costs BPS (Base + Inc.) --></label>
+        <name>Other_Costs_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Costs BPS (Inc.) --></label>
+        <name>Other_Costs_BPS_Inc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Any additional information that is pertinent to the deal. --></help>
+        <label><!-- Other Key Notes --></label>
+        <name>Other_Key_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Revenue BPS (Base + Inc.) --></label>
+        <name>Other_Revenue_BPS_Base_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Revenue BPS (Inc.) --></label>
+        <name>Other_Revenue_BPS_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Admins Only --></label>
+        <name>Override_Admins_Only__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if a Deal is currently in Override Mode or not. For use by BD Finance only. --></help>
+        <label><!-- Override Mode --></label>
+        <name>Override_Mode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override_PDF_Created --></label>
+        <name>Override_PDF_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override User --></label>
+        <name>Override_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planner --></label>
+        <name>Planner__c</name>
+        <relationshipLabel><!-- Deals (Planner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Please explain Additional commitments --></label>
+        <name>Please_explain_Additional_commitments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Financial Model --></label>
+        <name>Potential_Financial_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Deal Status --></label>
+        <name>Prior_Deal_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Information from Deal&apos;s opportunity products. Used for reporting. --></help>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projection Page IPS --></label>
+        <name>Projection_Page_IPS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays T1 table projection type (Base, Inc or Base+Inc) --></help>
+        <label><!-- Projection Type (T1) --></label>
+        <name>Projection_Type_T1_1a__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projection Type (T2) --></label>
+        <name>Projection_Type_T2_1b__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projections Ready for Submit --></label>
+        <name>Projections_Ready_for_Submit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready to Submit --></label>
+        <name>Ready_to_Submit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recalled/Unlocked --></label>
+        <name>Recalled_Unlocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region of Opportunity Text --></label>
+        <name>Region_of_Opportunity_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- RollUp_Summary_Financial_Models --></label>
+        <name>RollUp_Summary_Financial_Models__c</name>
+    </fields>
+    <fields>
+        <help><!-- Details around how this deal will be managed after acceptance from the customer --></help>
+        <label><!-- Management of Deal Performance --></label>
+        <name>Rqrment_Mnging_Inc_Reb_Accruals_Paymt__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date Active - Created Date --></help>
+        <label><!-- Sales Cycle Time (Days) --></label>
+        <name>Sales_Cycle_Time_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce ID --></label>
+        <name>Salesforce_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensitive Deal --></label>
+        <name>Sensitive_Deal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Penetration Ratio (Inc. Only) --></label>
+        <name>Service_Penetration_Ratio_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set to Expired --></label>
+        <name>Set_Deal_Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short_Description --></label>
+        <name>Short_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Bps Net Revenue --></label>
+        <name>Signature_Bps_Net_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Contract Attached --></label>
+        <name>Signed_Contract_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed Contract Id --></label>
+        <name>Signed_Contract_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date contract obligations will begin. --></help>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission Ready --></label>
+        <name>Submission_Ready__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted Customer Support --></label>
+        <name>Submitted_Customer_Support__c</name>
+    </fields>
+    <fields>
+        <help><!-- When ever a recalled/unlocked deal is resubmitted the &quot;Summary of changes from last review/approved:&quot; field is required for submission --></help>
+        <label><!-- Summary of Changes From Last Review --></label>
+        <name>Summary_of_changes_from_last_review__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATM Driving (Inc. Only) --></label>
+        <name>T1_ATM_Driving__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of accounts that are active i.e. transacting. --></help>
+        <label><!-- Account Activation Rate% (Inc. Only) --></label>
+        <name>T1_Account_Activation_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquirer Attributed Total($) (Inc. Only) --></label>
+        <name>T1_Acquirer_Attributed_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquirer Attributed Total (Inc. Only) --></label>
+        <name>T1_Acquirer_Attributed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Spend per Account($) (Inc. Only) --></label>
+        <name>T1_Average_Spend_per_Account_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average Spend per Account. --></help>
+        <label><!-- Average Spend per Account (Inc. Only) --></label>
+        <name>T1_Average_Spend_per_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Transaction Size($) (Inc. Only) --></label>
+        <name>T1_Average_Transaction_Size_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average Transaction Size. --></help>
+        <label><!-- Average Transaction Size (Inc. Only) --></label>
+        <name>T1_Average_Transaction_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Card Management (Inc. Only) --></label>
+        <name>T1_Card_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cards - Deal Total($) (Inc. Only) --></label>
+        <name>T1_Cards_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cards - Deal Total (Inc. Only) --></label>
+        <name>T1_Cards__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of cross border volume processed. --></help>
+        <label><!-- % Cross Border Vol Processed (Inc. Only) --></label>
+        <name>T1_Cross_border_volume_processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Percentage (Inc. Only) --></label>
+        <name>T1_Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Incentive($) (Inc. Only) --></label>
+        <name>T1_Discounted_Incentive_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- NPV of the total customer support. --></help>
+        <label><!-- Discounted Incentive (Inc. Only) --></label>
+        <name>T1_Discounted_Incentive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relationship of discounted customer support to discounted revenue. --></help>
+        <label><!-- Discounted Payout% (Inc. Only) --></label>
+        <name>T1_Discounted_Payout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Revenue($) (Inc. Only) --></label>
+        <name>T1_Discounted_Revenue_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- NPV of the total revenue. --></help>
+        <label><!-- Discounted Revenue (Inc. Only) --></label>
+        <name>T1_Discounted_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted VAS Margin (Inc. Only) --></label>
+        <name>T1_Discounted_VAS_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fraud Scoring (Inc. Only) --></label>
+        <name>T1_Fraud_Scoring__c</name>
+    </fields>
+    <fields>
+        <label><!-- GDV Total($) (Inc. Only) --></label>
+        <name>T1_GDV_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- GDV Total (Inc. Only) --></label>
+        <name>T1_GDV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gateway Processing (Inc. Only) --></label>
+        <name>T1_Gateway_Processing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Cust. Revenue Total($) (Inc. Only) --></label>
+        <name>T1_Gross_Customer_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Cust. Revenue Total (Inc. Only) --></label>
+        <name>T1_Gross_Customer_Revenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of new issuance that is replacing existing MasterCard business. --></help>
+        <label><!-- Modeled Cannibal. Rate% (Inc. Only) --></label>
+        <name>T1_Modeled_Cannibalization_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPV (Inc. Only) --></label>
+        <name>T1_NPV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Revenue Total($) (Inc. Only) --></label>
+        <name>T1_Net_Deal_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Revenue Total(€) (Inc. Only) --></label>
+        <name>T1_Net_Deal_Revenue_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Revenue Total (Inc. Only) --></label>
+        <name>T1_Net_Deal_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Costs Total (Inc. Only) --></label>
+        <name>T1_Other_Costs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of years it takes to break even on a cash flow basis. --></help>
+        <label><!-- Payback Years (Inc. Only) --></label>
+        <name>T1_Payback_Years__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed GDV Total ($) (Inc. Only) --></label>
+        <name>T1_Processed_GDV_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed GDV Total (Inc. Only) --></label>
+        <name>T1_Processed_GDV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed Trans. Total ($) (Inc. Only) --></label>
+        <name>T1_Processed_Transactions_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed Trans. Total (Inc. Only) --></label>
+        <name>T1_Processed_Transactions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Revenue Total ($) (Inc. Only) --></label>
+        <name>T1_Processing_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Revenue Total (Inc. Only) --></label>
+        <name>T1_Processing_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Sign-on Bonus (Inc. Only) --></label>
+        <name>T1_Total_Customer_Sign_on_Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Support Total(€) (Inc. Only) --></label>
+        <name>T1_Total_Customer_Support_Deal_Total_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Support Total($) (Inc. Only) --></label>
+        <name>T1_Total_Customer_Support_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Support Total (Inc. Only) --></label>
+        <name>T1_Total_Customer_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue(€) (Inc. Only) --></label>
+        <name>T1_Total_Revenue_Deal_Total_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue($) (Inc. Only) --></label>
+        <name>T1_Total_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue (Inc.) --></label>
+        <name>T1_Total_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Processing (Inc. Only) --></label>
+        <name>T1_Transaction_Processing__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of transactions processed. --></help>
+        <label><!-- % Transaction Processed (Inc. Only) --></label>
+        <name>T1_Transaction_processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transactions Total ($) (Inc. Only) --></label>
+        <name>T1_Transactions_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transactions Total (Inc. Only) --></label>
+        <name>T1_Transactions__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of volume processed. --></help>
+        <label><!-- % Volume Processed (Inc. Only) --></label>
+        <name>T1_Volume_processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATM Driving (Base + Inc.) --></label>
+        <name>T2_ATM_Driving__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of accounts that are active i.e. transacting. --></help>
+        <label><!-- Account Activation Rate (Base + Inc.) --></label>
+        <name>T2_Account_Activation_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquirer Attributed Total($)(Base + Inc) --></label>
+        <name>T2_Acquirer_Attributed_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquirer Attributed Total (Base + Inc.) --></label>
+        <name>T2_Acquirer_Attributed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average Spend per Account. --></help>
+        <label><!-- Average Spend per Account (Base + Inc.) --></label>
+        <name>T2_Average_Spend_per_Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average Transaction Size. --></help>
+        <label><!-- Average Transaction Size (Base + Inc.) --></label>
+        <name>T2_Average_Transaction_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Card Management (Base + Inc.) --></label>
+        <name>T2_Card_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cards - Deal Total($) (Base + Inc.) --></label>
+        <name>T2_Cards_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cards Total (Base + Incremental) --></label>
+        <name>T2_Cards__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of cross border volume processed. --></help>
+        <label><!-- Cross Border Vol processed (Base + Inc.) --></label>
+        <name>T2_Cross_border_volume_processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Incentive($) (Base + Inc.) --></label>
+        <name>T2_Discounted_Incentive_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- NPV of the total customer support. --></help>
+        <label><!-- Discounted Incentive (Base + Inc.) --></label>
+        <name>T2_Discounted_Incentive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relationship of discounted customer support to discounted revenue. --></help>
+        <label><!-- Discounted Payout% (Base + Inc.) --></label>
+        <name>T2_Discounted_Payout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Revenue($) (Base + Inc.) --></label>
+        <name>T2_Discounted_Revenue_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- NPV of the total revenue. --></help>
+        <label><!-- Discounted Revenue (Base + Inc.) --></label>
+        <name>T2_Discounted_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted VAS Margin (Base + Inc.) --></label>
+        <name>T2_Discounted_VAS_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fraud Scoring (Base + Inc.) --></label>
+        <name>T2_Fraud_Scoring__c</name>
+    </fields>
+    <fields>
+        <label><!-- GDV Total($) (Base + Inc.) --></label>
+        <name>T2_GDV_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- GDV Total (Base + Inc.) --></label>
+        <name>T2_GDV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gateway Processing (Base + Inc.) --></label>
+        <name>T2_Gateway_Processing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Cust. Revenue Total($) (Base+Inc.) --></label>
+        <name>T2_Gross_Customer_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Customer Rev.Total (Base + Inc.) --></label>
+        <name>T2_Gross_Customer_Revenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of new issuance that is replacing existing MasterCard business. --></help>
+        <label><!-- Modeled Cannibal. Rate (Base + Inc.) --></label>
+        <name>T2_Modeled_Cannibalization_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPV (Base + Inc.) --></label>
+        <name>T2_NPV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Revenue Total($) (Base + Inc.) --></label>
+        <name>T2_Net_Deal_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Revenue Total(€) (Base + Inc.) --></label>
+        <name>T2_Net_Deal_Revenue_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Revenue Total (Base + Inc.) --></label>
+        <name>T2_Net_Deal_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Costs Total (Base + Inc.) --></label>
+        <name>T2_Other_Costs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of years it takes to break even on a cash flow basis. --></help>
+        <label><!-- Payback Years (Base + Inc.) --></label>
+        <name>T2_Payback_Years__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed GDV Total ($) (Base + Inc.) --></label>
+        <name>T2_Processed_GDV_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed GDV Total (Base + Inc.) --></label>
+        <name>T2_Processed_GDV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed Trans. Total ($) (Base + Inc.) --></label>
+        <name>T2_Processed_Transactions_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed Trans.Total (Base + Inc.) --></label>
+        <name>T2_Processed_Transactions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Revenue Total ($) (Base + Inc.) --></label>
+        <name>T2_Processing_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Revenue Total (Base + Inc.) --></label>
+        <name>T2_Processing_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Sign-on Bonus (Base + Inc.) --></label>
+        <name>T2_Total_Customer_Sign_on_Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Support Total(€)(Base + Inc) --></label>
+        <name>T2_Total_Customer_Support_Deal_Total_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Support Total($)(Base + Inc) --></label>
+        <name>T2_Total_Customer_Support_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cust. Support (Base + Inc.) --></label>
+        <name>T2_Total_Customer_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Marketing/Advertising$(Base + Inc) --></label>
+        <name>T2_Total_Marketing_Advertising_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue(€) (Base + Inc.) --></label>
+        <name>T2_Total_Revenue_Deal_Total_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue($) (Base + Inc.) --></label>
+        <name>T2_Total_Revenue_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Total Revenue (Base + Inc.) --></label>
+        <name>T2_Total_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Training $/€ (Base + Inc.) --></label>
+        <name>T2_Total_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Processing (Base + Inc.) --></label>
+        <name>T2_Transaction_Processing__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of transactions processed. --></help>
+        <label><!-- Transaction processed (Base + Inc.) --></label>
+        <name>T2_Transaction_processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transactions Total ($) (Base + Inc.) --></label>
+        <name>T2_Transactions_Deal_Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transactions Total (Base + Inc.) --></label>
+        <name>T2_Transactions__c</name>
+    </fields>
+    <fields>
+        <label><!-- US Avg Spend per Account (Base + Inc.) --></label>
+        <name>T2_US_Average_Spend_per_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- US Avg Transaction Size (Base + Inc.) --></label>
+        <name>T2_US_Average_Transaction_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of volume processed. --></help>
+        <label><!-- Volume processed (Base + Inc.) --></label>
+        <name>T2_Volume_processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Calendar Months --></label>
+        <name>Total_Calendar_Months__c</name>
+    </fields>
+    <fields>
+        <help><!-- Further explanation of any other type of customer support needed. --></help>
+        <label><!-- If Other, Explain (Customer Support) --></label>
+        <name>Type_of_Customer_Support_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Breakout of customer support required for the deal. --></help>
+        <label><!-- Type of Customer Support --></label>
+        <name>Type_of_Customer_Support__c</name>
+        <picklistValues>
+            <masterLabel>Account Support</masterLabel>
+            <translation><!-- Account Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advance of Incentives</masterLabel>
+            <translation><!-- Advance of Incentives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors Consulting Services Support</masterLabel>
+            <translation><!-- Advisors Consulting Services Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors Information Services Support</masterLabel>
+            <translation><!-- Advisors Information Services Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors Managed Services Support</masterLabel>
+            <translation><!-- Advisors Managed Services Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisors/Consulting</masterLabel>
+            <translation><!-- Advisors/Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base Assessed Transaction Support</masterLabel>
+            <translation><!-- Base Assessed Transaction Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base Processed Transaction Support</masterLabel>
+            <translation><!-- Base Processed Transaction Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Card Support</masterLabel>
+            <translation><!-- Card Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cirrus Switch Fee Rebate</masterLabel>
+            <translation><!-- Cirrus Switch Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conversion Assistance</masterLabel>
+            <translation><!-- Conversion Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conversion Support</masterLabel>
+            <translation><!-- Conversion Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Border Assessment rebates</masterLabel>
+            <translation><!-- Cross Border Assessment rebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Border Base bps</masterLabel>
+            <translation><!-- Cross Border Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Border Incremental bps</masterLabel>
+            <translation><!-- Cross Border Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Delivery Services</masterLabel>
+            <translation><!-- Customer Delivery Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designated FTE</masterLabel>
+            <translation><!-- Designated FTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Support</masterLabel>
+            <translation><!-- Digital Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESS Support</masterLabel>
+            <translation><!-- ESS Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Processing or Credit</masterLabel>
+            <translation><!-- Free Processing or Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV Incremental bps</masterLabel>
+            <translation><!-- GDV Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV Processed Base bps</masterLabel>
+            <translation><!-- GDV Processed Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV Processed Incremental bps</masterLabel>
+            <translation><!-- GDV Processed Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GDV-Base bps</masterLabel>
+            <translation><!-- GDV-Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GP&amp;S Incentive</masterLabel>
+            <translation><!-- GP&amp;S Incentive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incremental Assessed Transact Support</masterLabel>
+            <translation><!-- Incremental Assessed Transact Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incremental Processed Transact Support</masterLabel>
+            <translation><!-- Incremental Processed Transact Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint Development Fund</masterLabel>
+            <translation><!-- Joint Development Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labs Support</masterLabel>
+            <translation><!-- Labs Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch Support</masterLabel>
+            <translation><!-- Launch Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License Fee Waiver</masterLabel>
+            <translation><!-- License Fee Waiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty - Benefits Support</masterLabel>
+            <translation><!-- Loyalty - Benefits Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty - Rewards Support</masterLabel>
+            <translation><!-- Loyalty - Rewards Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MPTS Support</masterLabel>
+            <translation><!-- MPTS Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestro Switch Fee Rebate</masterLabel>
+            <translation><!-- Maestro Switch Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing/Advertising</masterLabel>
+            <translation><!-- Marketing/Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchant Investment Support</masterLabel>
+            <translation><!-- Merchant Investment Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-MC Product / IT Development</masterLabel>
+            <translation><!-- Non-MC Product / IT Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS / Terminalization Support</masterLabel>
+            <translation><!-- POS / Terminalization Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Bonus</masterLabel>
+            <translation><!-- Performance Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Base bps</masterLabel>
+            <translation><!-- Retail Sales Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Incremental bps</masterLabel>
+            <translation><!-- Retail Sales Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Processed Base bps</masterLabel>
+            <translation><!-- Retail Sales Processed Base bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Sales Processed Incremental bps</masterLabel>
+            <translation><!-- Retail Sales Processed Incremental bps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheme Core Fee Discount</masterLabel>
+            <translation><!-- Scheme Core Fee Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheme Core Fee Rebate</masterLabel>
+            <translation><!-- Scheme Core Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Share Performance Support</masterLabel>
+            <translation><!-- Share Performance Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign-On Bonus</masterLabel>
+            <translation><!-- Sign-On Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship Support</masterLabel>
+            <translation><!-- Sponsorship Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Core Fee Discount</masterLabel>
+            <translation><!-- Switching Core Fee Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching Core Fee Rebate</masterLabel>
+            <translation><!-- Switching Core Fee Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User-Pay Waiver/Support</masterLabel>
+            <translation><!-- User-Pay Waiver/Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAS Margin</masterLabel>
+            <translation><!-- VAS Margin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallet Solutions Support</masterLabel>
+            <translation><!-- Wallet Solutions Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this field and save the record if you want to validate this deal for submission --></help>
+        <label><!-- Validate Submission Criteria --></label>
+        <name>Validate_Required_Fields_to_Submit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Icndiates whether the deal will include a clawback provision. --></help>
+        <label><!-- Includes Clawback Provision --></label>
+        <name>Will_agreement_include_Clawback_Provisi__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Unique identifier populated by b-SMART --></help>
+        <label><!-- bSmart Id --></label>
+        <name>bSmart_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter your best estimate for the date on which the proposal will be sent to the customer. --></help>
+        <label><!-- Offer Communication Date --></label>
+        <name>mfc_anticipated_offer_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certified By --></label>
+        <name>mfc_certified_by__c</name>
+        <relationshipLabel><!-- Deals (Certified By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Certified Date --></label>
+        <name>mfc_certified_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFC Comments --></label>
+        <name>mfc_comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gross Issuing Revenue less total incentives provided to the customer expressed in basis points on the applicable GDV. --></help>
+        <label><!-- Compliance Review --></label>
+        <name>mfc_compliance_review__c</name>
+        <picklistValues>
+            <masterLabel>Compliant</masterLabel>
+            <translation><!-- Compliant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Compliant</masterLabel>
+            <translation><!-- Non-Compliant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consumer Credit MFC Compliant --></label>
+        <name>mfc_consumer_credit_compliant__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For non-U.S. markets, please enter the Net Issuer Revenue rate in basis points on a combined basis for both consumer and small business. --></help>
+        <label><!-- Consumer Credit NIR (BPS) --></label>
+        <name>mfc_consumer_credit_nir__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dual Message - Debit MFC Compliant --></label>
+        <name>mfc_dual_message_compliant__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For non-U.S. markets, enter the applicable Net Issuer Revenue deal rate in basis points for the applicable Debit volumes. --></help>
+        <label><!-- Dual Message - Debit NIR (BPS) --></label>
+        <name>mfc_dual_message_nir__c</name>
+    </fields>
+    <fields>
+        <label><!-- Single Message - Debit  MFC Compliant --></label>
+        <name>mfc_single_message_compliant__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For non-U.S. markets, please disregard this field. --></help>
+        <label><!-- Single Message - Debit NIR (BPS) --></label>
+        <name>mfc_single_message_nir__c</name>
+    </fields>
+    <fields>
+        <label><!-- Small Business Credit MFC Compliant --></label>
+        <name>mfc_small_biz_compliant__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For Non-U.S. Markets, the Net Issuer Revenue (BPS) for a credit opportunity (consumer and/or small business), should only be entered within the consumer credit field. --></help>
+        <label><!-- Small Business Credit NIR (BPS) --></label>
+        <name>mfc_small_biz_nir__c</name>
+    </fields>
+    <fields>
+        <help><!-- This custom formula field counts the number of deals so we can summarize counts in reports. --></help>
+        <label><!-- # of Deals --></label>
+        <name>number_of_Deals__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Deal Name cannot be changed after an ARIBA Contract Request has been made. --></errorMessage>
+        <name>Ariba_deal_name_can_not_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have permission to change Deal Status --></errorMessage>
+        <name>BD_Admin_Profile_Validate_Status_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A deal can not be created if the stage of the opportunity associated is &quot;Closed Won&quot; or &quot;Not Won&quot;. --></errorMessage>
+        <name>BD_No_Create_Deal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Account Provisions Years must be less than LOC Years --></errorMessage>
+        <name>Check_Account_Provision_Years</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t change master Deal when Oppt is close won (the master deal is already active) --></errorMessage>
+        <name>Check_Master_Deal_when_deal_is_active</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Values cannot be entered in both the &quot;If Yes, Describe Clawback Calculation&quot; and &quot;If No, Explain (Clawback)&quot; fields. --></errorMessage>
+        <name>Clawback_explanation_both_no_and_yes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Contract ID entered does not have the proper format. Please use the Contract ID from Ariba i.e. CWxxxxxxx OR CRWxxxxxxx OR LCWxxxxxx. --></errorMessage>
+        <name>Contract_Request_Workspace_Id_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Customer must the same than the Account of the Opportunity --></errorMessage>
+        <name>Customer_Same_Opportunity_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Exclusivity for Merchant Acceptance as a customer support type should only be allowed for Merchant Agreement deals --></errorMessage>
+        <name>Customer_Support_only_For_Merchant_Agree</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change the customer on an existing deal --></errorMessage>
+        <name>Customer_can_not_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When a record is in Override Mode, only the User who locked the record can edit the record. --></errorMessage>
+        <name>DFO_Edit_No_Override_User</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The dates entered will change the term of the deal. Please Recall the deal and then change the dates. --></errorMessage>
+        <name>DFO_Edit_Start_and_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Deal Covering Countries cannot be empty --></errorMessage>
+        <name>Deal_Covering_Countries_cannot_be_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field can be edited only if the deal status is &apos;Business Case Development&apos; or &apos;Business Case Returned&apos;. --></errorMessage>
+        <name>Deal_Status_verification</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It&apos;s not possible to delete a deal with the status Business Case Submitted for Approval. --></errorMessage>
+        <name>Delete_Deal_not_possible_After_Submitted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only System Administrators are allowed to delete a deal. --></errorMessage>
+        <name>Delete_Deal_only_for_admin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If No is selected for IMK Fast Track Eligible field then the If No explain field is required --></errorMessage>
+        <name>IMK_Fast_Track_Eligible_Is_No_Explain</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- the &quot;Is this early renewal &quot; field is required --></errorMessage>
+        <name>Is_this_early_renewal_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The End Date must be greater than the Start Date and the dates can not be in the same month of the same year. --></errorMessage>
+        <name>LOC_Sup_1_Month</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other value must be filed when for &quot;Other&quot; is selected in  Data Source --></errorMessage>
+        <name>Missing_Data_Source_Other_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please describe clawback calculation! --></errorMessage>
+        <name>Missing_Describe_Clawback_calculation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please explain if agreement does not include Clawback! --></errorMessage>
+        <name>Missing_If_no_clawback_please_explain</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- the &quot;Is this early renewal &quot; field must be empty (- -  None - - ) for New Customer or New Business. --></errorMessage>
+        <name>Missing_Is_this_early_renewal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please explain Additional commitments --></errorMessage>
+        <name>Missing_Reason_for_additional_mastercard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please explain why prior/existing deal has no residual years of revenue --></errorMessage>
+        <name>Missing_Residual_Year_Revenue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If no, Explain (Residual Revenue) cannot be filled when &quot;Yes&quot; is selected in Residual Years on Existing Deal --></errorMessage>
+        <name>Missing_Residual_Years_If_No</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Support Prepayment Amount cannot be blank if Customer Support Prepayment is YES --></errorMessage>
+        <name>Missing_Support_Prepayment_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Support Prepayment Description cannot be blank if Customer Support Prepayment is YES --></errorMessage>
+        <name>Missing_Support_Prepayment_Desc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field must be blank if Type of Customer Support selection  does not contain &quot;Other&quot; --></errorMessage>
+        <name>Missing_TypeofCust_support_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field cannot be blank if Type of Customer Support selection  is &quot;Other&quot; --></errorMessage>
+        <name>Missing_TypeofCust_support_Other_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Number of residual years is required! --></errorMessage>
+        <name>Missing_residual_years</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot select a Multi Country as a Deal Covering Country --></errorMessage>
+        <name>Multi_Country_in_Deal_Covering_Countries</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change the opportunity type on this deal. --></errorMessage>
+        <name>Opportunity_Type_uneditable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change the opportunity on an existing deal --></errorMessage>
+        <name>Opportunity_can_not_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A deal must be linked to an Opportunity --></errorMessage>
+        <name>Opportunity_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

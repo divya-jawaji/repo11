@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>APR 20</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>APR 20</value>
+    </caseValues>
+    <layouts>
+        <layout>profile MAY 27</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>profile_ MAY_28</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label>asdjasvdhasvd</label>
+        <name>first</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- TestLink --></label>
+        <name>TestLink</name>
+    </webLinks>
+</CustomObjectTranslation>

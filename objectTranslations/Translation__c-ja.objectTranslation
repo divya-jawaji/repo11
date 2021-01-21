@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Translation --></value>
+    </caseValues>
+    <fieldSets>
+        <label>fieldset_japanese</label>
+        <name>FieldSet1</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Field_eng1 --></label>
+        <name>Field_eng1__c</name>
+    </fields>
+    <fields>
+        <label>field1_japanese</label>
+        <name>field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- field2 --></label>
+        <name>field2__c</name>
+    </fields>
+    <fields>
+        <label>field3_japanese</label>
+        <name>field3__c</name>
+    </fields>
+    <fields>
+        <label>field4_japanese</label>
+        <name>field4__c</name>
+    </fields>
+    <fields>
+        <help><!-- hgvhgvhgv --></help>
+        <label>field5_jafdzdz</label>
+        <name>field5__c</name>
+    </fields>
+    <fields>
+        <label><!-- fieldeng2 --></label>
+        <name>fieldeng2__c</name>
+    </fields>
+    <nameFieldLabel><!-- Translations Name --></nameFieldLabel>
+    <recordTypes>
+        <label>recordType_japanese</label>
+        <name>RecordType1</name>
+    </recordTypes>
+    <sharingReasons>
+        <label>reason1_japanese</label>
+        <name>Reason1</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage><!-- Should be active --></errorMessage>
+        <name>Rule1</name>
+    </validationRules>
+    <webLinks>
+        <label>buttonlink_japanese</label>
+        <name>ButtonLink1</name>
+    </webLinks>
+</CustomObjectTranslation>
