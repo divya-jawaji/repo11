@@ -2,8 +2,13 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>49.0</version>
     <types>
+        <members>Feb13</members>
+        <members>Feb26</members>
+        <members>Idmsjavascript</members>
         <members>Jan152021</members>
+        <members>Jan19</members>
         <members>June26</members>
+        <members>June27</members>
         <name>ApexClass</name>
     </types>
     <types>
