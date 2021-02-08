@@ -12,8 +12,13 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>object34__c.field1__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>Feb4th__c</members>
         <members>jan13_CustomMetadata__mdt</members>
+        <members>object34__c</members>
         <name>CustomObject</name>
     </types>
     <types>
