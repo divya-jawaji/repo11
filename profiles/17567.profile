@@ -10,6 +10,10 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <loginIpRanges>
+<endAddress>183.82.43.217</endAddress>
+<startAddress>183.82.43.217</startAddress>
+</loginIpRanges>
     <applicationVisibilities>
         <application>customApp_sept9</application>
         <default>true</default>
