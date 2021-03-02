@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>TranslationsApp</application>
@@ -122,6 +121,14 @@
     </applicationVisibilities>
     <classAccesses>
         <apexClass>A</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A0</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A000</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4807,6 +4814,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>object34__c.field1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>platformevent1__e.field1__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4877,13 +4889,28 @@
         <recordType>Account__c.recordtype2</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Address-Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Again_Backup__c-Again Backup Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AssetAction-Asset Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetActionSource-Asset Action Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetStatePeriod-Asset State Period Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssociatedLocation-Associated Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AugTests__c-AugTest Layout</layout>
@@ -4958,7 +4985,16 @@
         <layout>ExternalInterfaceSetting_mdg_md__mdt-ExternalInterfaceSetting%2Emdg%2Emd Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Feb4th__c-Feb4th Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinanceTransaction-Finance Transaction Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
@@ -4976,7 +5012,13 @@
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>LegalEntity-Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ListEmail-List Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Location-Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
@@ -5179,6 +5221,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>obj_Aug28__c-obj_Aug28 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>object34__c-object34 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>record_picklist_object__c-record_picklist_object Layout</layout>
