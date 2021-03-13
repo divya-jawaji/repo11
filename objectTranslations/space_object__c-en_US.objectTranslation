@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>spaceObject</value>
     </caseValues>
-    <recordTypes>
-        <label><!-- record1 --></label>
-        <name>record1</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- record2 --></label>
-        <name>record2</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -8,9 +8,5 @@
         <plural>true</plural>
         <value>ToDeleteobject1s</value>
     </caseValues>
-    <fields>
-        <label><!-- field1 --></label>
-        <name>field1__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<apex:page showHeader="false" standardStylesheets="true">
+
+<style type="text/css">
+html {
+    padding:0px;
+    margin:0px;
+    border:none;
+}
+body {
+    padding:15px;
+    margin:0px;
+    background:#E8E8E8;
+    border:none;
+}
+</style>
+
+<script language="javascript">
+window.onload=function(){
+    document.forms['TimesheetsLoginForm'].submit();
+}
+</script>
+<form action="https://salesforce.timesheets.com/controller/SalesforceController.cfc" method="post" name="TimesheetsLoginForm" target="_self">
+    <input type="hidden" name="Method" value="SalesforceLogin" />
+    <input type="hidden" name="SessionID" value="{!$Api.Session_ID}" />
+    <input type="hidden" name="ServerURL" value="{!$Api.Partner_Server_URL_140}" />
+</form>
+
+</apex:page>

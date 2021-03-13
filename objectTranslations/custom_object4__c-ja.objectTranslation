@@ -4,17 +4,5 @@
         <plural>false</plural>
         <value><!-- custom_object4 --></value>
     </caseValues>
-    <fields>
-        <label>fildeee</label>
-        <name>field1__c</name>
-    </fields>
-    <fields>
-        <label>asdasd</label>
-        <name>field2__c</name>
-    </fields>
-    <fields>
-        <label>asdads</label>
-        <name>field3__c</name>
-    </fields>
     <nameFieldLabel><!-- custom_object3 Name --></nameFieldLabel>
 </CustomObjectTranslation>

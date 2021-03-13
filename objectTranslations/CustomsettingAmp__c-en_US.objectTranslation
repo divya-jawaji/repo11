@@ -8,9 +8,5 @@
         <plural>true</plural>
         <value>CustomsettingAmp&amp;</value>
     </caseValues>
-    <fields>
-        <label><!-- Access token$$ --></label>
-        <name>Access_token__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>nov objs</value>
     </caseValues>
-    <fields>
-        <label><!-- nov field1 --></label>
-        <name>nov_field1__c</name>
-    </fields>
-    <fields>
-        <label><!-- nov field2 --></label>
-        <name>nov_field2__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

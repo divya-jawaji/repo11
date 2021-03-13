@@ -1,0 +1,20 @@
+<apex:page showHeader="false">
+
+    <style type="text/css">
+    html {
+        padding:0px;
+        margin:0px;
+    }
+    body {
+        padding:15px;
+        margin:0px;
+        background:#E8E8E8;
+    }
+    </style>
+
+  <h1>This tab is now obsolete.</h1>
+  <b>Please use the Timesheets.com apex tab for single sign-on to the website.</b>
+  <br />
+  <br />
+
+</apex:page>

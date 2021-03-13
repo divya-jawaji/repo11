@@ -1,0 +1,7 @@
+<script type="text/javascript">
+var U =  "{!User.TimeclockOnline__TCOUsername__c}";
+var P = "{!User.TimeclockOnline__TCOPassword__c}";
+var LoginURL = 'http://salesforce.timeclockonline.com/controller/LoginController.cfc?Method=Login';
+LoginURL = LoginURL+ "&Username="+U+"&Password="+P;
+window.location=LoginURL ;
+</script>

@@ -8,21 +8,5 @@
         <plural>true</plural>
         <value>obj_Aug28</value>
     </caseValues>
-    <fields>
-        <label><!-- Aug28_field1 --></label>
-        <name>Aug28_field1_del_del__c</name>
-    </fields>
-    <fields>
-        <label><!-- Aug28_field3 --></label>
-        <name>Aug28_field3__c</name>
-    </fields>
-    <fields>
-        <label><!-- Aug28_field3 --></label>
-        <name>Aug28_field3_del__c</name>
-    </fields>
-    <fields>
-        <label><!-- aug_field2 --></label>
-        <name>aug_field2_del__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

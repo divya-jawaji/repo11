@@ -5548,6 +5548,18 @@
         <label><!-- social verification confirmation --></label>
         <name>echosign_dev1__social_verification_confirmation</name>
     </customLabels>
+    <customPageWebLinks>
+        <label><!-- Configuration Guide --></label>
+        <name>Configuration_Guide</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Conga Configuration Guide --></label>
+        <name>Conga_Configuration_Guide</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Conga Setup Page --></label>
+        <name>Conga_Setup_Page</name>
+    </customPageWebLinks>
     <flowDefinitions>
         <flows/>
         <fullName>Contact_address_change</fullName>
@@ -5564,10 +5576,6 @@
         <flows/>
         <fullName>jan18_flow</fullName>
     </flowDefinitions>
-    <quickActions>
-        <label><!-- globalactions --></label>
-        <name>globalactions</name>
-    </quickActions>
     <quickActions>
         <label><!-- LogACall --></label>
         <name>LogACall</name>
@@ -5612,6 +5620,10 @@
         <label><!-- SendEmail --></label>
         <name>SendEmail</name>
     </quickActions>
+    <quickActions>
+        <label><!-- globalactions --></label>
+        <name>globalactions</name>
+    </quickActions>
     <reportTypes>
         <description><!-- Screen Flows --></description>
         <label><!-- Screen Flows --></label>
@@ -5625,4 +5637,44 @@
             <name>Flow Interview Logs</name>
         </sections>
     </reportTypes>
+    <scontrols>
+        <label><!-- About Document Cloud --></label>
+        <name>AboutEchoSign</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- Delete Agreement --></label>
+        <name>Delete_Agreement</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- eSign Services Admin --></label>
+        <name>EchoSignAdmin</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- Refresh Status --></label>
+        <name>RefreshStatus</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- Send Reminder --></label>
+        <name>SendReminder</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- Send for Signature --></label>
+        <name>SendforSignature</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- TCO_Enroll --></label>
+        <name>TCO_Enrollment</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- TCO EnrollOLD --></label>
+        <name>TCO_Enromment</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- TCO Import Salesforce Users --></label>
+        <name>TCO_ImportSalesforceUsers</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- TCO Login --></label>
+        <name>TCO_Login</name>
+    </scontrols>
 </Translations>

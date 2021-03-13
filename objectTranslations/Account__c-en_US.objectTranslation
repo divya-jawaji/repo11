@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>Accounts</value>
     </caseValues>
-    <recordTypes>
-        <label><!-- recordtype1 --></label>
-        <name>recordtype1</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- recordtype2 --></label>
-        <name>recordtype2</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

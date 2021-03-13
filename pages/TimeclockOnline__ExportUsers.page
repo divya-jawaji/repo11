@@ -1,0 +1,29 @@
+<apex:page showHeader="false" standardStylesheets="true">
+
+    <style type="text/css">
+    html {
+        padding:0px;
+        margin:0px;
+    }
+    body {
+        padding:15px;
+        margin:0px;
+        background:#E8E8E8;
+    }
+    </style>
+    
+    <div id="TCOExportDiv" style="display:block;">
+        <form action="http://salesforce.timesheets.com/controller/SalesforceController.cfc" method="post" target="_self" onsubmit="document.getElementById('takeamoment').style.display='block'">
+            <input type="hidden" name="Method" value="SalesforceLogin" />
+            <input type="hidden" name="SessionID" value="{!$Api.Session_ID}" />
+            <input type="hidden" name="ServerURL" value="{!$Api.Partner_Server_URL_140}" />
+            <input type="hidden" name="LandingPage" value="default.cfm?page=SFImportUsers&SessionID={!$Api.Session_ID}&ServerURL={!$Api.Partner_Server_URL_140}" />
+            <strong>This feature will export a list of your Salesforce users into Timesheets.</strong><br />
+            Once your list of employees is imported into Timesheets, they will be able to log into Timesheets via their Salesforce account.<br />
+            <br />
+            <input type="submit" name="submit" value="Export Users Now" />&nbsp;
+            <em id="takeamoment" style="display:none;color:red;">This may take a moment. Please wait...</em>
+        </form>
+    </div>
+
+</apex:page>

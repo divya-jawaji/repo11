@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This tab is old.  Use the new &quot;TimeclockOnline.com&quot; tab instead.</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>true</hasSidebar>
+    <icon>TimeclockOnline__Images/TimeclockOnline__TCOIcon.gif</icon>
+    <label>Don&apos;t Use</label>
+    <motif>Custom189: TV Widescreen</motif>
+    <url>https://salesforce.timeclockonline.com/default.cfm?OldSalesforceTab=true</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

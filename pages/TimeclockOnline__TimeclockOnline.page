@@ -1,0 +1,43 @@
+<apex:page standardStylesheets="true" sidebar="false">
+
+    <style type="text/css">
+    html, body {
+    height:100%;
+    }
+    div.textDiv {
+    font-size:12px;
+    }
+    div.textDiv ul {
+    padding-left:1.5em;
+    }
+    .activeTab {
+    font-weight:bold;
+    background:#172E40;
+    color:white;
+    font-size:12px;
+    margin:0px;
+    border:none;
+    }
+    .inactiveTab {
+    font-weight:bold;
+    background:#3C76A4;
+    color:white;
+    font-size:12px;
+    margin:0px;
+    border:none;
+    }
+    </style>
+
+    <apex:tabpanel switchtype="ajax" selectedTab="TabLogin" activeTabClass="activeTab" inactiveTabClass="inactiveTab" id="MainTabs" style="height:1000px;">
+  
+        <apex:tab label="Login" style="padding:0px 1px;border:none;height:100%;" id="TabLogin">
+            <apex:iframe id="iframeLogin" src="/apex/login" scrolling="true" width="100%" height="100%" frameborder="0" />
+        </apex:tab>
+
+        <apex:tab label="Instructions" style="padding:0px 1px;border:none;height:100%;" id="TabInstructions">
+            <apex:iframe id="iframeInstructions" src="/apex/instructions" width="100%" height="100%" frameborder="0" />
+        </apex:tab>
+     
+    </apex:tabpanel>
+        
+</apex:page>

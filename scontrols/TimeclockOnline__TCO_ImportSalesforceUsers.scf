@@ -1,0 +1,11 @@
+<script type="text/javascript">
+ var U =  "{!User.TimeclockOnline__TCOUsername__c}";
+ var P = "{!User.TimeclockOnline__TCOPassword__c}";
+ var SI = "{!API.Session_ID}";
+ var SU =" {!API.Enterprise_Server_URL_120}";
+ var L = "default.cfm?page=SFImportUsers&SessionID="+SI+"&ServerURL="+SU;
+ var RedirectURL = "http://salesforce.timeclockonline.com/controller/LoginController.cfc?Method=Login";
+L = encodeURIComponent(L); 
+RedirectURL = RedirectURL+"&Username="+U+"&Password="+P+"&LandingPage="+L; 
+window.location = RedirectURL;
+</script>

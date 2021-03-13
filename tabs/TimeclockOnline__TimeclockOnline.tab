@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Timesheets.com enrollment, single sign-on, and instructions.</description>
+    <icon>TimeclockOnline__Images/TimeclockOnline__timesheets_favicon_96x96_png.png</icon>
+    <label>Timesheets.com</label>
+    <motif>Custom173: TV Widescreen</motif>
+    <page>TimeclockOnline__TimeclockOnline</page>
+</CustomTab>

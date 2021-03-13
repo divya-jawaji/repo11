@@ -8,27 +8,5 @@
         <plural>true</plural>
         <value>APR 20</value>
     </caseValues>
-    <layouts>
-        <layout>profile MAY 27</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>profile_ MAY_28</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <recordTypes>
-        <label>asdjasvdhasvd</label>
-        <name>first</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
-    <webLinks>
-        <label><!-- TestLink --></label>
-        <name>TestLink</name>
-    </webLinks>
 </CustomObjectTranslation>

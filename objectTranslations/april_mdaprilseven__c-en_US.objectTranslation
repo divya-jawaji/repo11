@@ -8,9 +8,5 @@
         <plural>true</plural>
         <value>april.mdaprilsevens</value>
     </caseValues>
-    <fields>
-        <label><!-- april.mdaprilseven field1 --></label>
-        <name>april_mdaprilseven_field1__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

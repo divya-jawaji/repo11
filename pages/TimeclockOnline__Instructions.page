@@ -1,0 +1,58 @@
+<apex:page showHeader="false" standardStylesheets="true">
+
+<form action="https://salesforce.timesheets.com/default.cfm?page=Enroll" method="post" name="SFEnroll" style="margin:0px;padding:0px;" target="_self">
+    <input type="hidden" name="Salesforce" value="true" />
+    <input type="hidden" name="Company" value="{!$Organization.Name}" />
+    <input type="hidden" name="FirstName" value="{!$User.FirstName}" />
+    <input type="hidden" name="LastName" value="{!$User.LastName}" />
+    <input type="hidden" name="Email" value="{!$User.Email}" />
+    <input type="hidden" name="Phone" value="{!$Organization.Phone}" />
+    <input type="hidden" name="Timezone" value="" />
+    <input type="hidden" name="SI" value="{!$Api.Session_ID}" />
+    <input type="hidden" name="SU" value="{!$Api.Partner_Server_URL_140}" />
+</form>
+
+<div class="textDiv" style="padding:10px;">
+<table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="50%" valign="top">
+            <h1 style="font-size:14px;">Timesheets.com Setup for Administrators</h1>
+                <ul>
+                    <li>
+                        <strong>Enroll</strong><br />
+                        <input type="button" onclick="document.forms['SFEnroll'].submit();" value="Click Here to Enroll" style="font-size:12px;" />
+                        <em>(Administrator Only)</em><br /><br />
+                    </li>
+                    <li><strong>Login</strong><br />
+                    Once enrolled, you may login to your account with the "Login" tab, or just click the main Timesheets.com tab.<br /><br />
+                    </li>
+                    <li><strong>Add Employees</strong><br /> 
+                        To add users to Timesheets.com, click the &quot;Add New User Account&quot; button on the &quot;Dashboard&quot; page.<br /><br />
+                    </li>
+                    <li>If you need further assistance, <a href="https://www.timesheets.com/index.cfm?action=enquiry" target="_blank">Contact Timesheets.com</a>.
+                    </li>
+                </ul>
+            </td>
+            <td width="50%" valign="top" style="padding:0px 15px;border-left:2px solid #dddddd;">
+                <h1 style="font-size:14px;">Setup for Single Sign-On</h1><br /><br />
+                <b>Single Sign-On is a feature which allows you to automatically log into your Timesheets.com account from Salesforce using the Login tab.</b>
+                <ul>
+                    <li>In order to enable single sign-on, ensure that your email address in Timesheets.com is the same as your Salesforce username/email address.<br /><br /></li>
+                    <li>In order to use the single sign-on feature, you must have API access in your salesforce organization.<br />
+                        <em>API access is typically limited to Enterprise Edition, Unlimited Edition, and Developer Edition.</em><br /><br /></li>
+                    <li>If you have API access and usernames properly configured, the Login tab will take you directly into your account.<br /><br /></li>
+                    <li>If you have any trouble using the "Login" tab for single sign-on, contact your administrator for assistance in fixing your email address in Timesheets.com.<br /><br /></li>
+                </ul>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="padding:0px 15px;">
+            <br /><br />
+                <em>In addition to automatic login from within Salesforce, you may always access your account outside of Salesforce by going to <a href="https://secure.timesheets.com" target="_blank">the secure login</a> using your email/username and Timesheets.com password.</em>
+            <br /><br />
+        </td>
+    </tr>
+</table>
+</div>
+
+</apex:page>

@@ -8,41 +8,5 @@
         <plural>true</plural>
         <value>AR Tests</value>
     </caseValues>
-    <fields>
-        <label><!-- PList2 --></label>
-        <name>PList2__c</name>
-        <picklistValues>
-            <masterLabel>PL4</masterLabel>
-            <translation><!-- PL4 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>PL5</masterLabel>
-            <translation><!-- PL5 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>PL6</masterLabel>
-            <translation><!-- PL6 --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- PList3 --></label>
-        <name>PList3__c</name>
-        <picklistValues>
-            <masterLabel>PLV4</masterLabel>
-            <translation><!-- PLV4 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>PLV6</masterLabel>
-            <translation><!-- PLV6 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>PLV7</masterLabel>
-            <translation><!-- PLV7 --></translation>
-        </picklistValues>
-    </fields>
-    <recordTypes>
-        <label><!-- ARRecordType --></label>
-        <name>ARRecordType</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

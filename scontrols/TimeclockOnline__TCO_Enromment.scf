@@ -1,0 +1,18 @@
+<form action="http://salesforce.timeclockonline.com/default.cfm?page=Enroll" method="post" name="SFEnroll">
+	<input type="hidden" name="Salesforce" value="true" />
+	<input type="hidden" name="Company" value="{!Organization.Name}" />
+	<input type="hidden" name="FirstName" value="{!User.FirstName}" />
+	<input type="hidden" name="LastName" value="{!User.LastName}" />
+	<input type="hidden" name="State" value="{!Organization.State}" />
+	<input type="hidden" name="Phone" value="{!Organization.Phone}" />
+	<input type="hidden" name="Email" value="{!User.Email}" />
+	<input type="hidden" name="Timezone" value="" />
+	<input type="hidden" name="HowDidYouHear" value="Salesforce.com" />
+	<input type="hidden" name="SI" value="{!API.Session_ID}" />
+	<input type="hidden" name="SU" value="{!API.Enterprise_Server_URL_120}" />
+</form>
+<script type="text/javascript" language="javascript">
+window.onload=function(){
+	document.forms["SFEnroll"].submit();
+}
+</script>
