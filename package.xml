@@ -710,6 +710,10 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>Default_test communities</members>
+        <name>Audience</name>
+    </types>
+    <types>
         <members>ActivityLoggingBehaviorSettings</members>
         <members>AgreementEditor</members>
         <members>AgreementEditorBridge</members>
@@ -4546,6 +4550,10 @@
         <name>CustomPermission</name>
     </types>
     <types>
+        <members>test_communities</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>APXTConga4__About_Conga_Composer</members>
         <members>APXTConga4__Composer_QuickMerge__c</members>
         <members>APXTConga4__CongaMerge</members>
@@ -4799,6 +4807,10 @@
     <types>
         <members>Case.Standard</members>
         <name>EscalationRule</name>
+    </types>
+    <types>
+        <members>test_communities1</members>
+        <name>ExperienceBundle</name>
     </types>
     <types>
         <members>Translation__c.FieldSet1</members>
@@ -5204,6 +5216,14 @@
         <members>cms_image</members>
         <members>news</members>
         <name>ManagedContentType</name>
+    </types>
+    <types>
+        <members>test communities.Block_banned_keywords</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>Default_Navigation</members>
+        <name>NavigationMenu</name>
     </types>
     <types>
         <members>NotificationTypeConfig</members>

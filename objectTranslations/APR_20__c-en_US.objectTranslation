@@ -4,9 +4,31 @@
         <plural>false</plural>
         <value>APR 20</value>
     </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>APR 20</value>
-    </caseValues>
+    <fields>
+        <label></label>
+        <name>APR20ValidationRules__c</name>
+    </fields>
+    <layouts>
+        <layout>profile MAY 27</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>profile_ MAY_28</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>quickaction</name>
+    </quickActions>
+    <recordTypes>
+        <label>asdjasvdhasvd</label>
+        <name>first</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
