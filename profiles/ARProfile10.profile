@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
+        <field>APR_20__c.APR20ValidationRules__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APR_20__c.Master_detail_relationship2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Conga_Solution__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Description__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Launch_CM8__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_ID_Formula__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_Name_Formula__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Weblink_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -136,19 +146,19 @@
         <readable>false</readable>
     </fieldPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
+        <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
+        <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>APR_20__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
+        <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
+        <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>APXTConga4__Composer_QuickMerge__c</object>
         <viewAllRecords>false</viewAllRecords>

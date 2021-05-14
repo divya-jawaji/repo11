@@ -180,4 +180,8 @@
         <name>checkapp9</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>test communities</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>
