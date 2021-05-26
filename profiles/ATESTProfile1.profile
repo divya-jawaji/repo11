@@ -145,7 +145,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>A0</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A000</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>A0000</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A00000ABdkKerh</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A00000AFbPUxBKQp</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A0001</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -266,6 +286,62 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AAA1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsApyhfMr</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsCPdKVrMTxbu</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsEMWXYOAUmYDo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsLZNJxYcwPIspD</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsRPeyrxpNudzC</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsSUIYGUP</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsTeBPULwKfudkd</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsWAjWpAqRxMp</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsXAAKAAidLb</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsaGzrDFkwy</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClscQytmtfsg</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClscxYmWnwixSTF</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsgOKiTEqCtI</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AAClsnxJZwzI</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -914,6 +990,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AutoDraftClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Before3</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BusinessClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BusinessClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>C3</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -2162,6 +2254,21 @@
         <name>APXTConga4__Composer_Custom_Permission</name>
     </customPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>APR_20__c.APR20ValidationRules__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>APR_20__c.Master_detail_relationship2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APR_20__c.sector1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Conga_Solution__c</field>
         <readable>true</readable>
@@ -2734,6 +2841,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account__c.sector__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account__c.testoneone__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3893,6 +4010,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Goal.OrigGoalId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4004,6 +4126,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Individual.Website</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KOb19__c.f1__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4180,6 +4307,11 @@
         <editable>true</editable>
         <field>Mayobj__c.field_2__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Metric.OrigMetricId__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4402,6 +4534,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Order.QuoteId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.ShipToContactId</field>
         <readable>true</readable>
@@ -4440,6 +4577,11 @@
         <editable>false</editable>
         <field>OrderItem.ProductCode</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderItem.QuoteLineItemId</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4564,6 +4706,156 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.StockKeepingUnit</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.AccountId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.AdditionalAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.AdditionalName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.BillingName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.ContactId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.ContractId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Email</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.ExpirationDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Fax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.GrandTotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.QuoteToAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.QuoteToName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.ShippingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.ShippingHandling</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.ShippingName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Subtotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Tax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.TotalPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>QuoteLineItem.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>QuoteLineItem.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>QuoteLineItem.ListPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>QuoteLineItem.ProductCode</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>QuoteLineItem.ServiceDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>QuoteLineItem.Subtotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>QuoteLineItem.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6623,6 +6915,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>custom_object1__c.sector1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>custom_object2__c.field1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>custom_object4__c.field1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6660,6 +6962,16 @@
         <editable>true</editable>
         <field>customobject6__c.field_1__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>echosign_dev1__Adobe_Sign_API_Client__mdt.echosign_dev1__Client_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>echosign_dev1__Adobe_Sign_API_Client__mdt.echosign_dev1__Client_Secret__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8108,6 +8420,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>maytwentytwo__c.sector__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>nov_obj__c.nov_field1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8185,6 +8502,10 @@
         <layout>APR_20__c-profile MAY 27</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>APR_20__c-profile MAY 27</layout>
+        <recordType>APR_20__c.first</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>APXTConga4__Composer_QuickMerge__c-APXTConga4__Composer QuickMerge Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -8227,6 +8548,10 @@
         <layout>AR_Test__c-AR Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AR_Test__c-AR Test Layout</layout>
+        <recordType>AR_Test__c.ARRecordType</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -8234,6 +8559,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account__c-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account__c-Account Layout</layout>
+        <recordType>Account__c.recordtype1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account__c-Account Layout</layout>
+        <recordType>Account__c.recordtype2</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Again_Backup__c-Again Backup Layout</layout>
@@ -8431,6 +8764,12 @@
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Quote-Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuoteLineItem-Quote Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Quy_mdgContacts_md_Query_mdgContacts2_md__c-Quy%2EmdgContacts%2Emd%2CQuery%2EmdgContacts2%2Emd Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -8486,6 +8825,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Translation__c-Translation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Translation__c-Translation Layout</layout>
+        <recordType>Translation__c.RecordType1</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Unique__c-Unique Layout</layout>
@@ -8638,6 +8981,19 @@
         <layout>march4th_custommetadata__mdt-march4thCustommetadata Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>maytwentyone__c-maytwentyone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>maytwentythree__c-maytwentythree Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>maytwentythree__c-maytwentythree Layout</layout>
+        <recordType>maytwentythree__c.recordtype1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>maytwentytwo__c-maytwentytwo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>nov_obj__c-nov obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -8650,10 +9006,30 @@
         <layout>record_picklist_object__c-record_picklist_object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>record_picklist_object__c-record_picklist_object Layout</layout>
+        <recordType>record_picklist_object__c.recordtype_pickist_recordtype</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>sameObject__c-sameObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>sameObject__c-sameObject Layout</layout>
+        <recordType>sameObject__c.record1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sameObject__c-sameObject Layout</layout>
+        <recordType>sameObject__c.record2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>space_object__c-spaceObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>space_object__c-spaceObject Layout</layout>
+        <recordType>space_object__c.record1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>space_object__c-spaceObject Layout</layout>
+        <recordType>space_object__c.record2</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>uniqueobject__c-uniqueobject Layout</layout>
@@ -9576,8 +9952,23 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Metric.Completion</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Metric.Progress</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Translation__c.RecordType1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>maytwentythree__c.recordtype1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -9729,6 +10120,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>flexipage3</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>maytwentythree__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -9985,6 +10380,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-QuickText</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
