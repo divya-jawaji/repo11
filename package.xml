@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>49.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>48.0</version>
     <types>
         <members>Feb13</members>
         <members>Feb26</members>
@@ -31,7 +30,9 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>ARProfile1</members>
         <members>ARProfile10</members>
+        <members>ATESTProfile1</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <name>Profile</name>
