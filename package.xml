@@ -48,6 +48,10 @@
         <name>RecordType</name>
     </types>
     <types>
+        <members>custom_object5__c.rule1</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>APR_20__c.TestLink</members>
         <name>WebLink</name>
     </types>
