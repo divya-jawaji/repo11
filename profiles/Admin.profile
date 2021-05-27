@@ -2163,6 +2163,16 @@
     </customPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>APEXEmailNotificationSetting__mdt.OrgWideFromEmail__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APEXEmailNotificationSetting__mdt.ReceiverEmails__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Conga_Solution__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -5245,6 +5245,7 @@
     </types>
     <types>
         <members>17567</members>
+        <members>AR Profile</members>
         <members>ARProfile1</members>
         <members>ARProfile10</members>
         <members>ARProfile2</members>
@@ -5254,6 +5255,7 @@
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
+        <members>Banker</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>

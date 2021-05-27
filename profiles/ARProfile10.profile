@@ -2,6 +2,16 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldPermissions>
         <editable>true</editable>
+        <field>APEXEmailNotificationSetting__mdt.OrgWideFromEmail__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APEXEmailNotificationSetting__mdt.ReceiverEmails__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>APR_20__c.APR20ValidationRules__c</field>
         <readable>false</readable>
     </fieldPermissions>
