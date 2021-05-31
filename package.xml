@@ -40,6 +40,8 @@
         <members>ARProfile1</members>
         <members>ARProfile10</members>
         <members>ATESTProfile1</members>
+        <members>ContractManager</members>
+        <members>Control Room</members>
         <name>Profile</name>
     </types>
     <types>
