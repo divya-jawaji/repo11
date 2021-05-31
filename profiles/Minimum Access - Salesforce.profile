@@ -2730,6 +2730,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Alert__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Asset.AccountId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4636,6 +4641,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>ToDeleteobject1__c.field1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Training__c.Comments__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
