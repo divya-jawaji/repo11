@@ -2,6 +2,16 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>APEXEmailNotificationSetting__mdt.OrgWideFromEmail__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>APEXEmailNotificationSetting__mdt.ReceiverEmails__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.DQ_Status__c</field>
         <readable>true</readable>
@@ -30,6 +40,16 @@
         <editable>false</editable>
         <field>Account_History__c.Original_Value__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Activity_Security__c.Team__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Activity_Security__c.Unique_ID__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <userLicense>Salesforce</userLicense>
 </Profile>

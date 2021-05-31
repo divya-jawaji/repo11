@@ -12,24 +12,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Activity_Security__c.Team__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Activity_Security__c.Unique_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Conflict_Clearance__c.Submitted_By__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Conflict_Clearance__c.Submitted_Date__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <userLicense>Analytics Cloud Integration User</userLicense>
+    <userLicense>Salesforce Platform</userLicense>
 </Profile>
